@@ -1,0 +1,10 @@
+model,allergen,precision,recall,f1,support
+P-HAF-KG V2.1,celery,0.0,0.0,0.0,0
+P-HAF-KG V2.1,egg,1.0,1.0,1.0,6
+P-HAF-KG V2.1,fish,0.0,0.0,0.0,0
+P-HAF-KG V2.1,milk,0.9285714285714286,1.0,0.9629629629629629,13
+P-HAF-KG V2.1,peanut,1.0,1.0,1.0,6
+P-HAF-KG V2.1,sesame,1.0,1.0,1.0,1
+P-HAF-KG V2.1,soy,1.0,0.8888888888888888,0.9411764705882353,9
+P-HAF-KG V2.1,tree_nut,1.0,1.0,1.0,6
+P-HAF-KG V2.1,wheat_gluten,1.0,1.0,1.0,11

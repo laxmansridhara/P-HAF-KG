@@ -1,0 +1,37 @@
+{
+    "model_name": "P-HAF-KG",
+    "version": "2.1",
+    "status": "FROZEN",
+    "purpose": "Final full-dataset evaluation",
+    "allergen_categories": [
+        "celery",
+        "wheat_gluten",
+        "crustaceans",
+        "egg",
+        "fish",
+        "lupin",
+        "milk",
+        "molluscs",
+        "mustard",
+        "peanut",
+        "sesame",
+        "soy",
+        "sulphites",
+        "tree_nut"
+    ],
+    "knowledge_base": "data/processed/ingredient_allergen_knowledge_14.csv",
+    "evidence_layer": "data/processed/p_haf_kg_evidence_14_v2_1.csv",
+    "development_metrics": "data/processed/p_haf_kg_14_v2_1_metrics.csv",
+    "baseline_metrics": "data/processed/baseline_keyword_metrics.csv",
+    "development_products": 27,
+    "development_results": {
+        "micro_f1": 0.9623,
+        "macro_f1": 0.4932,
+        "macro_precision": 0.4949,
+        "macro_recall": 0.4921,
+        "hamming_loss": 0.0106,
+        "exact_match_rate": 0.8519
+    },
+    "frozen_at": "2026-08-25T12:27:02",
+    "final_evaluation_rule": "No further model or knowledge-base modifications after freezing."
+}

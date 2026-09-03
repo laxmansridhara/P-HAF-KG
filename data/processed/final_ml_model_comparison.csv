@@ -1,0 +1,6 @@
+model,model_type,micro_f1,macro_f1,hamming_loss,exact_match_rate,micro_f1_rank,macro_f1_rank,hamming_loss_rank,exact_match_rank
+Keyword baseline,Lexical / rule-based,0.6617,0.6079,0.2381,0.2963,5,3,5,3
+TF-IDF + Logistic Regression,Supervised ML,0.6789,0.6951,0.1852,0.2593,4,1,4,5
+TF-IDF + Linear SVM,Supervised ML,0.6972,0.5843,0.1528,0.2963,3,4,3,3
+TF-IDF + Random Forest,Supervised ML,0.7071,0.6316,0.1343,0.3704,2,2,2,2
+P-HAF-KG V2.1,Knowledge-based AI,0.9623,0.4932,0.0106,0.8519,1,5,1,1
