@@ -1,0 +1,10 @@
+code,product_name,ground_truth,prediction,potential,true_positive,false_positive,false_negative,direct_matches,precautionary_matches,special_threshold_matches
+00000049,Mre Lite,egg;milk,egg;fish;milk,,egg;milk,fish,,albumin -> egg;egg -> egg;egg albumin -> egg;milk -> milk;milk powder -> milk;salmon -> fish,,
+0000112301878,pot au feu de légumes aux aromates,milk,celery;milk,egg;wheat_gluten,milk,celery,,celeri -> celery;lait -> milk,ble -> wheat_gluten;oeuf -> egg,
+00001403,Sablés Coco Lait,egg;milk;soy;wheat_gluten,egg;milk;soy;tree_nut;wheat_gluten,sesame,egg;milk;soy;wheat_gluten,tree_nut,,beurre -> milk;ble -> wheat_gluten;farine de ble -> wheat_gluten;lait -> milk;lait ecreme -> milk;malt -> wheat_gluten;noix -> tree_nut;oeufs -> egg;orge -> wheat_gluten;soja -> soy,graines de sesame -> sesame;sesame -> sesame;sésame -> sesame,
+0000192495165,Dessert végétal à l'amande et au chocolat et à la noisette,tree_nut,milk;tree_nut,,tree_nut,milk,,amande -> tree_nut;beurre -> milk;lait -> milk;noisette -> tree_nut,lait -> milk,
+0001000657163,Tortellini Ricotta Epinard,egg;milk;wheat_gluten,egg;milk;tree_nut;wheat_gluten,,egg;milk;wheat_gluten,tree_nut,,beurre -> milk;ble -> wheat_gluten;farine de ble -> wheat_gluten;fromage -> milk;lactose -> milk;lactoserum -> milk;lait -> milk;noix -> tree_nut;oeuf -> egg,,
+00000024,Croccante con pistacchi e miele,,peanut;sesame;tree_nut;wheat_gluten,,,peanut;sesame;tree_nut;wheat_gluten,,ble -> wheat_gluten;cacahuetes -> peanut;gluten -> wheat_gluten;noix -> tree_nut;sesame -> sesame;sésame -> sesame,,
+00000550,Krautsalat,,peanut;sesame;tree_nut;wheat_gluten,,,peanut;sesame;tree_nut;wheat_gluten,,ble -> wheat_gluten;cacahuetes -> peanut;gluten -> wheat_gluten;noix -> tree_nut;sesame -> sesame;sésame -> sesame,,
+0002000012670,,wheat_gluten,egg;milk;mustard;sesame;soy;wheat_gluten,,wheat_gluten,egg;milk;mustard;sesame;soy,,ble -> wheat_gluten;farine de ble -> wheat_gluten;gluten -> wheat_gluten;lait -> milk;moutarde -> mustard;oeuf -> egg;sesame -> sesame;soja -> soy;sésame -> sesame,,
+000000000063,M&amp;M white,wheat_gluten,,,,,wheat_gluten,,,

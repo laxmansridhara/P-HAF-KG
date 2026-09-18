@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Load only required columns
 columns = [
     "code",
     "product_name",
@@ -13,21 +12,30 @@ columns = [
     "nova_group"
 ]
 
-df = pd.read_csv(
-    "data/en.openfoodfacts.org.products (1).csv",
+input_file = "data/en.openfoodfacts.org.products (1).csv"
+output_file = "results/clean_food_dataset.csv"
+
+first_chunk = True
+total_rows = 0
+
+for chunk in pd.read_csv(
+    input_file,
     sep="\t",
     usecols=columns,
-    low_memory=False
-)
+    chunksize=50000,
+    low_memory=False,
+):
+    chunk.to_csv(
+        output_file,
+        mode="w" if first_chunk else "a",
+        header=first_chunk,
+        index=False,
+    )
 
-print(df.head())
+    total_rows += len(chunk)
+    print(f"Processed {total_rows:,} rows...")
 
-# Save cleaned dataset
-df.to_csv(
-    "results/clean_food_dataset.csv",
-    index=False
-)
+    first_chunk = False
 
-print("\nDataset saved successfully!")
-print("Rows:", len(df))
-print("Columns:", len(df.columns))
+print("\nDone!")
+print(f"Saved cleaned dataset to: {output_file}")

@@ -1,0 +1,9 @@
+model,metric,value,test_products
+TF-IDF + Logistic Regression,Macro Precision,0.696520,27
+TF-IDF + Logistic Regression,Macro Recall,0.709069,27
+TF-IDF + Logistic Regression,Macro F1,0.695128,27
+TF-IDF + Logistic Regression,Micro Precision,0.649123,27
+TF-IDF + Logistic Regression,Micro Recall,0.711538,27
+TF-IDF + Logistic Regression,Micro F1,0.678899,27
+TF-IDF + Logistic Regression,Hamming Loss,0.185185,27
+TF-IDF + Logistic Regression,Exact Match Rate,0.259259,27

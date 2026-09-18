@@ -1,0 +1,80 @@
+{
+  "dataset": "500 independently reviewed gold products",
+  "gold_products": 500,
+  "classes": [
+    "celery",
+    "crustaceans",
+    "egg",
+    "fish",
+    "lupin",
+    "milk",
+    "molluscs",
+    "mustard",
+    "peanut",
+    "sesame",
+    "soy",
+    "tree_nut",
+    "wheat_gluten"
+  ],
+  "models": {
+    "svm": {
+      "micro_precision": 0.7009992313604919,
+      "micro_recall": 0.8035242290748899,
+      "micro_f1": 0.7487684729064039,
+      "macro_precision": 0.6405331294501461,
+      "macro_recall": 0.7095759683140148,
+      "macro_f1": 0.6489055775686488,
+      "hamming_loss": 0.09415384615384616,
+      "exact_match": 0.314
+    },
+    "p_haf_kg": {
+      "micro_precision": 0.771828665568369,
+      "micro_recall": 0.8255506607929516,
+      "micro_f1": 0.7977862920391656,
+      "macro_precision": 0.7210191069062242,
+      "macro_recall": 0.8431959354698845,
+      "macro_f1": 0.7501561399594571,
+      "hamming_loss": 0.07307692307692308,
+      "exact_match": 0.556
+    },
+    "hybrid": {
+      "micro_precision": 0.771828665568369,
+      "micro_recall": 0.8255506607929516,
+      "micro_f1": 0.7977862920391656,
+      "macro_precision": 0.7210191069062242,
+      "macro_recall": 0.8431959354698845,
+      "macro_f1": 0.7501561399594571,
+      "hamming_loss": 0.07307692307692308,
+      "exact_match": 0.556
+    }
+  },
+  "product_exact_match": {
+    "svm": 0.314,
+    "p_haf_kg": 0.556,
+    "hybrid": 0.556
+  },
+  "disagreement": {
+    "svm_vs_kg_products": 350
+  },
+  "hybrid_decision_counts": {
+    "kg_confirmed_predictions": 1214,
+    "kg_potential_predictions": 740,
+    "svm_ai_candidate_predictions": 29
+  },
+  "svm_configuration": {
+    "model": "OneVsRest LinearSVC",
+    "C": 1.0,
+    "max_iter": 5000,
+    "tfidf_ngram_range": [
+      1,
+      2
+    ],
+    "tfidf_min_df": 2,
+    "tfidf_max_df": 0.98,
+    "tfidf_sublinear_tf": true,
+    "tfidf_max_features": 100000
+  },
+  "hybrid_definition": "KG direct evidence is confirmed; KG precautionary evidence is potential; SVM positives without KG evidence are AI candidate/review signals and are not automatically converted into confirmed allergens.",
+  "evaluation_note": "Gold labels were independently reviewed from ingredient text. SVM and P-HAF-KG were evaluated on the identical 500 products.",
+  "elapsed_seconds": 55.17632699012756
+}

@@ -1,0 +1,36 @@
+{
+    "model": "TF-IDF + One-vs-Rest Linear SVM",
+    "training_data": [
+        "data/processed/ml/train.csv",
+        "data/processed/ml/validation.csv"
+    ],
+    "training_rows": 133324,
+    "features": 100000,
+    "ngram_range": [
+        1,
+        2
+    ],
+    "min_df": 2,
+    "max_df": 0.98,
+    "sublinear_tf": true,
+    "max_features": 100000,
+    "svm_C": 1.0,
+    "max_iter": 5000,
+    "allergens": [
+        "celery",
+        "crustaceans",
+        "egg",
+        "fish",
+        "lupin",
+        "milk",
+        "molluscs",
+        "mustard",
+        "peanut",
+        "sesame",
+        "soy",
+        "tree_nut",
+        "wheat_gluten"
+    ],
+    "purpose": "Reusable deployment/inference model",
+    "note": "Separate from frozen 500-product gold evaluation model."
+}

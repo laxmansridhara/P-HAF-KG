@@ -1,0 +1,156 @@
+ingredient,allergen,evidence_type,confidence
+peanut,peanut,direct,1.0
+peanuts,peanut,direct,1.0
+peanut flour,peanut,direct,1.0
+peanut paste,peanut,direct,1.0
+peanut butter,peanut,direct,1.0
+peanut oil,peanut,direct,1.0
+arachis,peanut,direct,1.0
+arachide,peanut,direct,1.0
+arachides,peanut,direct,1.0
+cacahuete,peanut,direct,1.0
+cacahuetes,peanut,direct,1.0
+pate d'arachide,peanut,direct,1.0
+beurre de cacahuete,peanut,direct,1.0
+milk,milk,direct,1.0
+milk powder,milk,direct,1.0
+skimmed milk,milk,direct,1.0
+skim milk,milk,direct,1.0
+whole milk,milk,direct,1.0
+milk protein,milk,direct,1.0
+milk protein concentrate,milk,direct,1.0
+whey,milk,direct,1.0
+whey protein,milk,direct,1.0
+whey protein concentrate,milk,direct,1.0
+casein,milk,direct,1.0
+caseinate,milk,direct,1.0
+caseinate de calcium,milk,direct,1.0
+caseinates,milk,direct,1.0
+lactose,milk,direct,1.0
+cream,milk,direct,1.0
+butter,milk,direct,1.0
+cheese,milk,direct,1.0
+yogurt,milk,direct,1.0
+yoghurt,milk,direct,1.0
+lait,milk,direct,1.0
+lait entier,milk,direct,1.0
+lait ecreme,milk,direct,1.0
+lait ecreme en poudre,milk,direct,1.0
+lait en poudre,milk,direct,1.0
+poudre de lait,milk,direct,1.0
+proteines de lait,milk,direct,1.0
+proteine de lait,milk,direct,1.0
+proteines du lait,milk,direct,1.0
+lactoserum,milk,direct,1.0
+proteines de lactoserum,milk,direct,1.0
+petit lait,milk,direct,1.0
+beurre concentre,milk,direct,1.0
+creme fraiche,milk,direct,1.0
+chocolat au lait,milk,direct,1.0
+fromage,milk,direct,1.0
+fromages,milk,direct,1.0
+ricotta,milk,direct,1.0
+yaourt,milk,direct,1.0
+yogourt,milk,direct,1.0
+caseine,milk,direct,1.0
+egg,egg,direct,1.0
+eggs,egg,direct,1.0
+egg white,egg,direct,1.0
+egg whites,egg,direct,1.0
+egg yolk,egg,direct,1.0
+egg yolks,egg,direct,1.0
+albumin,egg,direct,1.0
+egg albumin,egg,direct,1.0
+ovalbumin,egg,direct,1.0
+oeuf,egg,direct,1.0
+oeufs,egg,direct,1.0
+blanc d'oeuf,egg,direct,1.0
+jaune d'oeuf,egg,direct,1.0
+albumine d'oeuf,egg,direct,1.0
+soy,soy,direct,1.0
+soya,soy,direct,1.0
+soybean,soy,direct,1.0
+soybeans,soy,direct,1.0
+soybean oil,soy,direct,1.0
+soy oil,soy,direct,1.0
+soya oil,soy,direct,1.0
+soy lecithin,soy,direct,1.0
+soya lecithin,soy,direct,1.0
+soy protein,soy,direct,1.0
+soy protein isolate,soy,direct,1.0
+soy flour,soy,direct,1.0
+soy sauce,soy,direct,1.0
+soya sauce,soy,direct,1.0
+tofu,soy,direct,1.0
+soja,soy,direct,1.0
+feves de soja,soy,direct,1.0
+huile de soja,soy,direct,1.0
+lecithine de soja,soy,direct,1.0
+lecithines de soja,soy,direct,1.0
+proteines de soja,soy,direct,1.0
+proteine de soja,soy,direct,1.0
+farine de soja,soy,direct,1.0
+sauce soja,soy,direct,1.0
+sauce de soja,soy,direct,1.0
+wheat,wheat_gluten,direct,1.0
+wheat flour,wheat_gluten,direct,1.0
+wheat protein,wheat_gluten,direct,1.0
+wheat starch,wheat_gluten,direct,1.0
+whole wheat,wheat_gluten,direct,1.0
+durum wheat,wheat_gluten,direct,1.0
+durum wheat semolina,wheat_gluten,direct,1.0
+semolina,wheat_gluten,direct,1.0
+gluten,wheat_gluten,direct,1.0
+wheat gluten,wheat_gluten,direct,1.0
+barley,wheat_gluten,direct,1.0
+rye,wheat_gluten,direct,1.0
+malt,wheat_gluten,direct,1.0
+barley malt,wheat_gluten,direct,1.0
+ble,wheat_gluten,direct,1.0
+farine de ble,wheat_gluten,direct,1.0
+farine de ble dur,wheat_gluten,direct,1.0
+ble dur,wheat_gluten,direct,1.0
+semoule de ble,wheat_gluten,direct,1.0
+gluten de ble,wheat_gluten,direct,1.0
+amidon de ble,wheat_gluten,direct,1.0
+farine de froment,wheat_gluten,direct,1.0
+orge,wheat_gluten,direct,1.0
+malt d'orge,wheat_gluten,direct,1.0
+seigle,wheat_gluten,direct,1.0
+sesame,sesame,direct,1.0
+sesame seed,sesame,direct,1.0
+sesame seeds,sesame,direct,1.0
+sesame oil,sesame,direct,1.0
+tahini,sesame,direct,1.0
+graines de sesame,sesame,direct,1.0
+huile de sesame,sesame,direct,1.0
+pate de sesame,sesame,direct,1.0
+almond,tree_nut,direct,1.0
+almonds,tree_nut,direct,1.0
+almond butter,tree_nut,direct,1.0
+almond flour,tree_nut,direct,1.0
+hazelnut,tree_nut,direct,1.0
+hazelnuts,tree_nut,direct,1.0
+cashew,tree_nut,direct,1.0
+cashews,tree_nut,direct,1.0
+walnut,tree_nut,direct,1.0
+walnuts,tree_nut,direct,1.0
+pecan,tree_nut,direct,1.0
+pecans,tree_nut,direct,1.0
+pistachio,tree_nut,direct,1.0
+pistachios,tree_nut,direct,1.0
+macadamia,tree_nut,direct,1.0
+brazil nut,tree_nut,direct,1.0
+brazil nuts,tree_nut,direct,1.0
+amande,tree_nut,direct,1.0
+amandes,tree_nut,direct,1.0
+noisette,tree_nut,direct,1.0
+noisettes,tree_nut,direct,1.0
+noix,tree_nut,direct,1.0
+noix de cajou,tree_nut,direct,1.0
+cajou,tree_nut,direct,1.0
+pistache,tree_nut,direct,1.0
+pistaches,tree_nut,direct,1.0
+noix de pecan,tree_nut,direct,1.0
+noix du bresil,tree_nut,direct,1.0
+fruits a coque,tree_nut,direct,1.0

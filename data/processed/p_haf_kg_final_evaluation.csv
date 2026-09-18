@@ -1,0 +1,8 @@
+model_version,evaluation_type,metric,baseline,p_haf_kg,improvement_percent,test_products,knowledge_relationships
+P-HAF-KG V2.1,development,Micro F1,0.6531,0.9623,47.34,27,221
+P-HAF-KG V2.1,development,Macro F1,0.3134,0.4932,57.37,27,221
+P-HAF-KG V2.1,development,Hamming Loss,0.1349,0.0106,92.14,27,221
+P-HAF-KG V2.1,development,Exact Match Rate,0.2963,0.8519,187.51,27,221
+P-HAF-KG V2.1,image_pipeline,image_decision,,NOT SUITABLE,,,221
+P-HAF-KG V2.1,image_pipeline,image_risk,,CONFIRMED,,,221
+P-HAF-KG V2.1,image_pipeline,matched_user_allergens,,milk,,,221

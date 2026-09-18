@@ -1,0 +1,14 @@
+P-HAF-KG V2.1 / SVM DISAGREEMENT ANALYSIS
+======================================================================
+
+Products compared: 14,815
+Exact agreement: 13,756
+Disagreement: 1,059
+Agreement rate: 92.85%
+Disagreement rate: 7.15%
+
+DISAGREEMENT TYPES
+----------------------------------------------------------------------
+kg_only_prediction: 754
+svm_only_prediction: 254
+both_sides_different: 51

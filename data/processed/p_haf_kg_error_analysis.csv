@@ -1,0 +1,28 @@
+code,product_name,ground_truth,prediction,potential,status,true_positive,false_positive,false_negative
+00000259,Barrette cioccolato e arachidi 1 barretta 35g.,milk;peanut;soy,milk;peanut;soy,wheat_gluten,EXACT_MATCH,milk;peanut;soy,,
+0001003676718,,soy;wheat_gluten,wheat_gluten,egg;milk;peanut;sesame;soy;tree_nut,FALSE_NEGATIVE,wheat_gluten,,soy
+00000049,Mre Lite,egg;milk,egg;milk,,EXACT_MATCH,egg;milk,,
+00000037,Sea Moss Gummies,,,,EXACT_MATCH,,,
+0000200008423,Thai sweet chilli sensations,soy;wheat_gluten,soy;wheat_gluten,milk,EXACT_MATCH,soy;wheat_gluten,,
+00001422,Le Jambon de nos Régions,milk,milk,soy,EXACT_MATCH,milk,,
+0001005400031,cocoa powder,,,milk;peanut;soy;wheat_gluten,EXACT_MATCH,,,
+0000987500001,Tofu Nature Bio,soy,sesame;soy,peanut;tree_nut;wheat_gluten,FALSE_POSITIVE,soy,sesame,
+00000104,30 Panach' Fruits,egg;milk;wheat_gluten,milk;wheat_gluten,,FALSE_NEGATIVE,milk;wheat_gluten,,egg
+00012782,Bagel sésame 3 fromages,milk;sesame;soy;wheat_gluten,milk;sesame;soy;wheat_gluten,,EXACT_MATCH,milk;sesame;soy;wheat_gluten,,
+0000112301878,pot au feu de légumes aux aromates,milk,milk,egg;wheat_gluten,EXACT_MATCH,milk,,
+0001121325632,"Cashews, salted",peanut;tree_nut,peanut;tree_nut,,EXACT_MATCH,peanut;tree_nut,,
+0001116103494,Whole roasted cashews,peanut;soy;tree_nut,peanut;soy;tree_nut,,EXACT_MATCH,peanut;soy;tree_nut,,
+0000380102109,Chocolate Indulgence IsaLean Whole Blend Whey-Based Bar,milk;peanut;tree_nut,milk;peanut;tree_nut,,EXACT_MATCH,milk;peanut;tree_nut,,
+00001403,Sablés Coco Lait,egg;milk;soy;wheat_gluten,milk;soy;tree_nut;wheat_gluten,sesame,FP_AND_FN,milk;soy;wheat_gluten,tree_nut,egg
+0000192495165,Dessert végétal à l'amande et au chocolat et à la noisette,tree_nut,milk;tree_nut,,FALSE_POSITIVE,tree_nut,milk,
+0000252828288,Chick-fil-A nuggets,egg;milk;peanut;soy;wheat_gluten,egg;milk;peanut;soy;wheat_gluten,,EXACT_MATCH,egg;milk;peanut;soy;wheat_gluten,,
+0000105748562,,wheat_gluten,wheat_gluten,egg,EXACT_MATCH,wheat_gluten,,
+0001000657163,Tortellini Ricotta Epinard,egg;milk;wheat_gluten,milk;tree_nut;wheat_gluten,,FP_AND_FN,milk;wheat_gluten,tree_nut,egg
+00000024,Croccante con pistacchi e miele,,peanut;sesame;tree_nut;wheat_gluten,,FALSE_POSITIVE,,peanut;sesame;tree_nut;wheat_gluten,
+00000224,madeleine Bijou ChocoPépites,egg;milk;wheat_gluten,egg;wheat_gluten,milk;soy;tree_nut,FALSE_NEGATIVE,egg;wheat_gluten,,milk
+00000550,Krautsalat,,peanut;sesame;tree_nut;wheat_gluten,,FALSE_POSITIVE,,peanut;sesame;tree_nut;wheat_gluten,
+0002000012670,,wheat_gluten,milk;sesame;soy;wheat_gluten,,FALSE_POSITIVE,wheat_gluten,milk;sesame;soy,
+0001110843432,"Mixed Nuts, Salted",peanut;tree_nut,peanut;tree_nut,,EXACT_MATCH,peanut;tree_nut,,
+0001757016092,Finest Milk Chocolate,milk;soy;tree_nut,milk;soy;tree_nut,,EXACT_MATCH,milk;soy;tree_nut,,
+0000112407510,velouté de cresson.,milk,milk,wheat_gluten,EXACT_MATCH,milk,,
+000000000063,M&amp;M white,wheat_gluten,,,FALSE_NEGATIVE,,,wheat_gluten

@@ -1,0 +1,38 @@
+P-HAF-KG V2.1 — FINAL GOLD EVALUATION
+======================================================================
+
+Gold products: 500
+
+TF-IDF + Linear SVM
+--------------------------------------------------
+Micro Precision: 0.7010
+Micro Recall: 0.8035
+Micro F1: 0.7488
+Macro Precision: 0.6405
+Macro Recall: 0.7096
+Macro F1: 0.6489
+Hamming Loss: 0.0942
+Exact Match: 0.3140
+
+P-HAF-KG V2.1
+--------------------------------------------------
+Micro Precision: 0.7718
+Micro Recall: 0.8256
+Micro F1: 0.7978
+Macro Precision: 0.7210
+Macro Recall: 0.8432
+Macro F1: 0.7502
+Hamming Loss: 0.0731
+Exact Match: 0.5560
+
+Hybrid KG + SVM
+--------------------------------------------------
+Micro Precision: 0.7718
+Micro Recall: 0.8256
+Micro F1: 0.7978
+Macro Precision: 0.7210
+Macro Recall: 0.8432
+Macro F1: 0.7502
+Hamming Loss: 0.0731
+Exact Match: 0.5560
+

@@ -2,6 +2,7 @@ import csv
 import re
 import time
 from pathlib import Path
+csv.field_size_limit(10_000_000)
 
 
 # ============================================================
@@ -38,7 +39,7 @@ KNOWLEDGE_FILE = Path(
     "data/processed/ingredient_allergen_knowledge_14.csv"
 )
 
-MAX_ROWS = 500_000
+MAX_ROWS = 4_535_553
 
 OUTPUT_FILE = Path(
     f"data/processed/scan/p_haf_kg_v2_1_large_scale_{MAX_ROWS}.csv"

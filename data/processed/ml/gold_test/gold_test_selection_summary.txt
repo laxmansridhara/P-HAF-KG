@@ -1,0 +1,54 @@
+P-HAF-KG V2.1 GOLD TEST CANDIDATE SELECTION
+======================================================================
+
+Random seed: 42
+Total selected: 500
+Target size: 500
+
+SELECTION COMPOSITION
+----------------------------------------------------------------------
+Challenge target: 350
+Control target: 150
+Challenge selected before fill: 350
+Controls selected before fill: 150
+Products without confirmed KG allergen: 78
+Products with 2+ confirmed allergens: 315
+
+MACHINE-GENERATED CATEGORY COUNTS
+----------------------------------------------------------------------
+svm_only_prediction: 180
+exact_agreement: 150
+kg_only_prediction: 120
+both_sides_different: 50
+
+CONFIRMED ALLERGEN REPRESENTATION
+----------------------------------------------------------------------
+celery: 67
+crustaceans: 38
+egg: 127
+fish: 53
+lupin: 23
+milk: 216
+molluscs: 15
+mustard: 69
+peanut: 59
+sesame: 72
+soy: 159
+tree_nut: 93
+wheat_gluten: 223
+
+POTENTIAL EVIDENCE REPRESENTATION
+----------------------------------------------------------------------
+celery: 60
+crustaceans: 5
+egg: 73
+fish: 14
+lupin: 10
+milk: 92
+molluscs: 2
+mustard: 61
+peanut: 63
+sesame: 77
+soy: 100
+tree_nut: 90
+wheat_gluten: 93

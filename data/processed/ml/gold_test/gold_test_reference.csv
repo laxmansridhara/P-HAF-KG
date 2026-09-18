@@ -1,0 +1,501 @@
+gold_id,product_code,product_name,svm_predicted,p_haf_confirmed,p_haf_potential,disagreement_type,svm_only,kg_only,potential_overlap
+GOLD_0001,0075391050897,5-1 Lb Ipw Clean Octopus,molluscs,molluscs,,exact_agreement,,,
+GOLD_0002,36057001400468650026,"Ruby Tuesday, Hand Skewered Shrimp",,,,exact_agreement,,,
+GOLD_0003,3760194320243,Kefta poulet,celery;egg;wheat_gluten,celery;egg;milk;wheat_gluten,mustard;peanut;sesame;soy;tree_nut,kg_only_prediction,,milk,
+GOLD_0004,8445291561373,Quality Street,milk,milk;tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0005,3560071490232,Pâté de Campagne,egg;wheat_gluten,wheat_gluten,celery;egg;milk;mustard,svm_only_prediction,egg,,egg
+GOLD_0006,84111562,noedels,celery;milk;mustard;peanut;sesame;soy;wheat_gluten,,celery;milk;mustard;peanut;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,celery;milk;mustard;peanut;sesame;soy;wheat_gluten,,celery;milk;mustard;peanut;sesame;soy;wheat_gluten
+GOLD_0007,3222476851826,Moricette au pavot jambon beurre et pousse de betterave,egg;milk;sesame;wheat_gluten,milk;wheat_gluten,celery;egg;mustard;sesame;soy;tree_nut,svm_only_prediction,egg;sesame,,egg;sesame
+GOLD_0008,3329770065321,Spécialité laitière nature,milk,milk,,exact_agreement,,,
+GOLD_0009,3346650219315,Salade gourmande,egg;mustard;soy;wheat_gluten,egg;milk;mustard;soy;wheat_gluten,,kg_only_prediction,,milk,
+GOLD_0010,5901783950801,Oshee Vitamin Water Zero,,,,exact_agreement,,,
+GOLD_0011,2600737043295,Noix de cajou grillées à sec à l’oignon,celery;lupin;milk;mustard;peanut;sesame;soy;tree_nut;wheat_gluten,celery;lupin;milk;mustard;peanut;sesame;soy;tree_nut;wheat_gluten,,exact_agreement,,,
+GOLD_0012,7613312212240,Mélange de noix - Chili nuts,tree_nut,peanut;tree_nut,,kg_only_prediction,,peanut,
+GOLD_0013,3033491376962,Danette et fruit,milk;soy;tree_nut,milk;soy,tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0014,3256226763824,Muesli super fruits,soy;wheat_gluten,wheat_gluten,peanut;sesame;soy;tree_nut,svm_only_prediction,soy,,soy
+GOLD_0015,3599741003519,Nuggets de volaille,wheat_gluten,celery;wheat_gluten,egg,kg_only_prediction,,celery,
+GOLD_0016,20827984,Desser t chocolat,egg,egg;milk,,kg_only_prediction,,milk,
+GOLD_0017,8019730062921,Sesamo snock,peanut,,peanut;sesame,svm_only_prediction,peanut,,peanut
+GOLD_0018,7340191143340,Spaghetti bolognese,,tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0019,8902346012414,Electral Orange,,,,exact_agreement,,,
+GOLD_0020,4311501696996,Choco Crumble,milk;soy;wheat_gluten,egg;milk;soy;wheat_gluten,,kg_only_prediction,,egg,
+GOLD_0021,0076500040488,"Sea salt toffee almonds organic dark chocolate snack bites, sea salt toffee almonds",milk;soy;tree_nut,milk;soy;tree_nut,,exact_agreement,,,
+GOLD_0022,9415007014942,ANCHOR 6 SLICES,milk,,,svm_only_prediction,milk,,
+GOLD_0023,8715700421933,Bolognese Pasta Sauce,,,,exact_agreement,,,
+GOLD_0024,0209805014827,Riz cantonnais,crustaceans;egg,crustaceans;egg;molluscs,,kg_only_prediction,,molluscs,
+GOLD_0025,9310055104587,white choc coco pops,wheat_gluten,,peanut;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0026,3264295302332,Lasagne à la bolognaise,egg;milk;mustard;sesame;soy;wheat_gluten,lupin;milk;mustard;sesame;soy;wheat_gluten,,both_sides_different,egg,lupin,
+GOLD_0027,5400210581064,Prepare américain,celery;egg;mustard,egg;mustard;soy,celery;milk;wheat_gluten,both_sides_different,celery,soy,celery
+GOLD_0028,8901542013157,Heinz &quot;Tomato Ketchup&quot; 900GM,celery,celery,,exact_agreement,,,
+GOLD_0029,3600900005203,Céréales gourmandes,celery;egg;lupin;mustard;sesame;soy;wheat_gluten,celery;egg;lupin;milk;mustard;sesame;soy;tree_nut;wheat_gluten,,kg_only_prediction,,milk;tree_nut,
+GOLD_0030,0073402471266,Wheat English Muffin,sesame;wheat_gluten,soy;wheat_gluten,sesame,both_sides_different,sesame,soy,sesame
+GOLD_0031,0035826084477,New England Style Clam Chowder Soup,celery;crustaceans;milk;soy,celery;crustaceans;milk;soy,,exact_agreement,,,
+GOLD_0032,3760169760371,Riz long blanc étuve bio,,,,exact_agreement,,,
+GOLD_0033,4006040118565,Salatöl,sesame,sesame,,exact_agreement,,,
+GOLD_0034,3222471053430,Carottes extrafines,celery,,celery,svm_only_prediction,celery,,celery
+GOLD_0035,8711327387171,Magnum Glace Pot Double Fraise 440ml,milk;soy;tree_nut,milk;soy,tree_nut;wheat_gluten,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0036,3033610986935,saumon fumé Norvège,fish,fish,,exact_agreement,,,
+GOLD_0037,3564707103473,Persil - flacon,celery;mustard,,celery;mustard,svm_only_prediction,celery;mustard,,celery;mustard
+GOLD_0038,0092825097389,Taco Kit,soy,,soy,svm_only_prediction,soy,,soy
+GOLD_0039,7610202308571,Chocolat Stella organic & fair,milk;peanut,milk,peanut,svm_only_prediction,peanut,,peanut
+GOLD_0040,3564700847824,Salade aux aiguillettes de poulet façon basquaise,milk;mustard;wheat_gluten,mustard,celery;egg;milk;wheat_gluten,svm_only_prediction,milk;wheat_gluten,,milk;wheat_gluten
+GOLD_0041,3700446496128,Nigelle capsules,fish;milk,fish,,svm_only_prediction,milk,,
+GOLD_0042,3344540126255,Curry sauce à dipper,egg;milk;mustard,egg;milk;mustard,,exact_agreement,,,
+GOLD_0043,4022993042009,Barre Cereale Break Nut Mix,peanut;sesame;wheat_gluten,peanut;wheat_gluten,sesame;tree_nut,svm_only_prediction,sesame,,sesame
+GOLD_0044,7610029175745,Filet de saumon norvégien,fish,fish,,exact_agreement,,,
+GOLD_0045,8480017335463,bolitas dia sabor chocolate,soy,soy,,exact_agreement,,,
+GOLD_0046,4088600047348,Mini Roulé Black Pepper & Paprika,milk,milk,,exact_agreement,,,
+GOLD_0047,5011308303194,Sauce Korma,milk;tree_nut,milk;peanut,,both_sides_different,tree_nut,peanut,
+GOLD_0048,3175681306929,,mustard;soy,soy,celery;milk;mustard;sesame;tree_nut;wheat_gluten,svm_only_prediction,mustard,,mustard
+GOLD_0049,4099100124156,Harvest potato soup,crustaceans;fish;milk;wheat_gluten,egg;milk;wheat_gluten,crustaceans;fish;soy;tree_nut,both_sides_different,crustaceans;fish,egg,crustaceans;fish
+GOLD_0050,5310345009077,Vincinni almighty wafer,milk;soy;wheat_gluten,milk;tree_nut;wheat_gluten,,both_sides_different,soy,tree_nut,
+GOLD_0051,3596710440900,16 mini briochés aperitifs,egg;milk;wheat_gluten,crustaceans;egg;milk;wheat_gluten,celery;mustard;sesame;tree_nut,kg_only_prediction,,crustaceans,
+GOLD_0052,0217093031426,Piemontaise au jambon,egg;mustard;wheat_gluten,egg;milk;mustard;wheat_gluten,,kg_only_prediction,,milk,
+GOLD_0053,5999076222711,ISO WHEY ZERO,crustaceans;egg;milk;soy,crustaceans;egg;milk;soy;wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0054,0071072013090,YELLOW RICE,celery,celery,,exact_agreement,,,
+GOLD_0055,3019081238681,Sardines à l'huile d'olive et herbes de Provence,fish,fish,celery;mustard;wheat_gluten,exact_agreement,,,
+GOLD_0056,0784428000186,Bourbon,,soy,,kg_only_prediction,,soy,
+GOLD_0057,0072655011137,Power Bowls Green Goddess,sesame,sesame;wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0058,9347739006868,Dubai Chocolate,milk;soy;tree_nut;wheat_gluten,milk;tree_nut;wheat_gluten,peanut;soy,svm_only_prediction,soy,,soy
+GOLD_0059,8004030022010,"Light Tuna Salad Corn with peas, carrots and black olives",fish;wheat_gluten,fish,wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0060,0209716029453,Les Cannelloni aux crevettes,crustaceans;egg;fish;milk;wheat_gluten,celery;crustaceans;egg;milk;wheat_gluten,fish;mustard;soy,both_sides_different,fish,celery,fish
+GOLD_0061,8600043023411,Plazma,milk;soy;wheat_gluten,soy;wheat_gluten,milk;sesame,svm_only_prediction,milk,,milk
+GOLD_0062,0016000144248,Mix honey bbq savory snack mix,celery;mustard;soy,celery;mustard;soy;wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0063,3256226375713,Céréales quinoa lentilles à l'huile d'olive 2%,sesame;wheat_gluten,wheat_gluten,sesame;soy,svm_only_prediction,sesame,,sesame
+GOLD_0064,8600939110454,Napolitanke kakao krem,milk;soy;wheat_gluten,soy;wheat_gluten,egg;milk;peanut;tree_nut,svm_only_prediction,milk,,milk
+GOLD_0065,0853219006017,Peanut Brittle,milk;peanut,milk;peanut,,exact_agreement,,,
+GOLD_0066,20296865,,milk;soy;tree_nut;wheat_gluten,milk;soy;tree_nut,wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0067,0073230001598,Kipper snacks,fish,fish,,exact_agreement,,,
+GOLD_0068,0450340360096,Geflügel-Twister Habanero,celery;mustard;wheat_gluten,mustard;wheat_gluten,celery;egg;milk;soy,svm_only_prediction,celery,,celery
+GOLD_0069,3350034028912,Arancini béchamel mozzarella,celery;egg;lupin;milk;soy;wheat_gluten,celery;egg;milk;soy;wheat_gluten,lupin;mustard;peanut;sesame;tree_nut,svm_only_prediction,lupin,,lupin
+GOLD_0070,0294229101482,,fish,fish;mustard;soy;wheat_gluten,crustaceans;egg;milk;sesame,kg_only_prediction,,mustard;soy;wheat_gluten,
+GOLD_0071,06839312,adaptogen complex,egg;peanut;soy;tree_nut;wheat_gluten,egg;milk;peanut;soy;wheat_gluten,,both_sides_different,tree_nut,milk,
+GOLD_0072,0063400508941,Muffins Anglais,wheat_gluten,soy;wheat_gluten,,kg_only_prediction,,soy,
+GOLD_0073,5283003341263,,celery;milk,milk,celery;peanut,svm_only_prediction,celery,,celery
+GOLD_0074,3456580888601,Flan Patissier,egg;lupin;milk;wheat_gluten,egg;lupin;milk;soy;wheat_gluten,,kg_only_prediction,,soy,
+GOLD_0075,7790580105013,Block,milk;peanut;soy,milk;peanut;soy;wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0076,3368954060387,"Préfou, pain apéritif tranché tomate et basilic , 300g",wheat_gluten,celery;milk;mustard;wheat_gluten,egg;sesame;soy,kg_only_prediction,,celery;milk;mustard,
+GOLD_0077,5000159541435,Barres Glacées,milk;peanut;soy,milk;soy;wheat_gluten,peanut,both_sides_different,peanut,wheat_gluten,peanut
+GOLD_0078,3350033582248,Le pave poulet crudites,egg;milk;mustard;wheat_gluten,egg;milk;mustard;wheat_gluten,celery;sesame;soy;tree_nut,exact_agreement,,,
+GOLD_0079,0643600000973,,sesame;tree_nut;wheat_gluten,sesame;tree_nut,,svm_only_prediction,wheat_gluten,,
+GOLD_0080,5010338301491,Thai Green Curry paste,peanut,peanut;soy,,kg_only_prediction,,soy,
+GOLD_0081,17210922,Rote Linsen,sesame,,sesame,svm_only_prediction,sesame,,sesame
+GOLD_0082,3292590898472,Ma galette des rois aux noisettes du Piémont,egg;milk;soy;tree_nut;wheat_gluten,egg;milk;peanut;soy;tree_nut;wheat_gluten,,kg_only_prediction,,peanut,
+GOLD_0083,5400141310306,burger poulet val dieu,mustard;wheat_gluten,mustard;wheat_gluten,,exact_agreement,,,
+GOLD_0084,3256224116950,Miettes de thon à l'huile d'olive pêché à la ligne,fish,fish,,exact_agreement,,,
+GOLD_0085,9000452021135,Nudeln - Spaghetti,,,,exact_agreement,,,
+GOLD_0086,0858638004095,Organic cocktail sauce,celery,celery,,exact_agreement,,,
+GOLD_0087,3258561412818,Moussaka,celery;wheat_gluten,celery;milk;wheat_gluten,,kg_only_prediction,,milk,
+GOLD_0088,7613036633741,"Street Christmas Chocolate, Toffee and Cremes Tub",milk;tree_nut,,milk;peanut;tree_nut,svm_only_prediction,milk;tree_nut,,milk;tree_nut
+GOLD_0089,5065020434650,Greek Style Chicken Pasta,egg;milk;mustard;wheat_gluten,egg;milk;mustard;wheat_gluten,,exact_agreement,,,
+GOLD_0090,0829739000538,Kale chips bombay curry,sesame,sesame,,exact_agreement,,,
+GOLD_0091,3596710288632,Trois chocolatssauce chocolat,milk;soy;wheat_gluten,milk;soy,egg;peanut;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0092,5054070313572,Custard Creams,milk;sesame;wheat_gluten,milk;wheat_gluten,sesame,svm_only_prediction,sesame,,sesame
+GOLD_0093,4337256074384,Garnelen salat,crustaceans;egg;mustard;wheat_gluten,crustaceans;egg;mustard,wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0094,2200280407676,Kokos Kakao-Tafel,tree_nut,,tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0095,3263851125828,Bouillon de boeuf,celery;egg;milk;soy,celery;soy,egg;milk;wheat_gluten,svm_only_prediction,egg;milk,,egg;milk
+GOLD_0096,5000358962079,Tesco Wholefood Cashew Nuts 250G,peanut;tree_nut,tree_nut,peanut;sesame,svm_only_prediction,peanut,,peanut
+GOLD_0097,8412438019295,,milk;sesame;tree_nut;wheat_gluten,tree_nut;wheat_gluten,egg;milk;peanut;sesame;soy,svm_only_prediction,milk;sesame,,milk;sesame
+GOLD_0098,4073400024101,Dijon Senf mit Honig,mustard,mustard,,exact_agreement,,,
+GOLD_0099,3250391390700,Boisson iced tea zéro saveur pêche,,,,exact_agreement,,,
+GOLD_0100,3270720020566,Happy new year,egg;milk;sesame;soy;tree_nut;wheat_gluten,egg;milk;peanut;sesame;soy;wheat_gluten,,both_sides_different,tree_nut,peanut,
+GOLD_0101,5010525051307,Deep Pan Cheese Pizza,milk,,,svm_only_prediction,milk,,
+GOLD_0102,3700009280898,Perles poivrons aubergines grillées,egg;milk;tree_nut;wheat_gluten,egg;tree_nut;wheat_gluten,celery;milk;mustard;sesame;soy,svm_only_prediction,milk,,milk
+GOLD_0103,6001021031015,Bisto gravy,egg;soy,egg;milk;soy;wheat_gluten,,kg_only_prediction,,milk;wheat_gluten,
+GOLD_0104,3596710450909,Lentilles préparées,celery,celery;wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0105,3564706562127,Carré craquant au miel,wheat_gluten,,milk;soy;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0106,8410223700038,Delaviuda Turron blando Mou Aux Amandes,egg;tree_nut,egg,tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0107,3350031493454,Craquelins au son d'avoine,sesame;soy;wheat_gluten,soy;wheat_gluten,sesame;tree_nut,svm_only_prediction,sesame,,sesame
+GOLD_0108,3256226756741,Curry de poulet et crevettes 280g,celery;crustaceans;milk;soy,celery;crustaceans;milk;soy,,exact_agreement,,,
+GOLD_0109,2006953009365,TES KIRKLAND 01/11/25 & PILAU RICE CHICKEN TIKKA M,milk,milk;tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0110,8410223873176,Turron,egg;milk;soy;tree_nut,,egg;milk;peanut;sesame;soy;tree_nut,svm_only_prediction,egg;milk;soy;tree_nut,,egg;milk;soy;tree_nut
+GOLD_0111,8712100744662,Bouillon viande,celery;soy,soy;tree_nut,celery;egg;milk,both_sides_different,celery,tree_nut,celery
+GOLD_0112,3456770866884,Fondant Chocolat Noir Extra,milk;soy,milk;soy,,exact_agreement,,,
+GOLD_0113,5410059068725,Matinettes blanc,milk;soy;wheat_gluten,milk;soy,wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0114,7506443101968,,wheat_gluten,peanut;tree_nut;wheat_gluten,,kg_only_prediction,,peanut;tree_nut,
+GOLD_0115,3222477505193,Haché au saumon et à la ciboulette,egg;fish;milk;wheat_gluten,egg;fish;wheat_gluten,celery;milk;mustard;soy,svm_only_prediction,milk,,milk
+GOLD_0116,8801073114043,Samyang Bulgogi Ramen,crustaceans;egg;fish;milk;molluscs;mustard;sesame;soy;wheat_gluten,milk;sesame;soy;wheat_gluten,crustaceans;egg;fish;molluscs;mustard;peanut,svm_only_prediction,crustaceans;egg;fish;molluscs;mustard,,crustaceans;egg;fish;molluscs;mustard
+GOLD_0117,0853197004029,Wild Salmon & Chardonnay Reduction Sauce,fish,fish;milk,,kg_only_prediction,,milk,
+GOLD_0118,4820026700113,Halva,peanut,peanut,,exact_agreement,,,
+GOLD_0119,3366760050271,Rougail saucisse et riz aux lentilles,wheat_gluten,,celery;milk;mustard;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0120,3222471142325,Pâté en croûte aux pistaches,egg;milk;wheat_gluten,egg;milk;tree_nut;wheat_gluten,celery;mustard;soy,kg_only_prediction,,tree_nut,
+GOLD_0121,0075391954577,11 oz lobster tails,crustaceans,crustaceans,,exact_agreement,,,
+GOLD_0122,3245390241191,Mousse liégeoise,milk;soy,milk;soy,,exact_agreement,,,
+GOLD_0123,11804123,Serving Suggestion 回愆回 Scan here for recipe inspir,celery;milk;mustard;wheat_gluten,milk;mustard;wheat_gluten,celery;egg;soy,svm_only_prediction,celery,,celery
+GOLD_0124,3301091900062,Délice au Saumon & Épinard,egg;milk;wheat_gluten,celery;fish;milk;wheat_gluten,,both_sides_different,egg,celery;fish,
+GOLD_0125,3027030006502,Mug Cake Moelleux au Citron,egg;wheat_gluten,,egg;milk;wheat_gluten,svm_only_prediction,egg;wheat_gluten,,egg;wheat_gluten
+GOLD_0126,5400101002524,Carrefour Original Brasserie Boulettes Sauce Tomate & Purée,celery;egg;milk,egg;milk,celery;lupin;mustard;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,celery,,celery
+GOLD_0127,5400155093790,Andalouse,egg;milk;mustard,celery;egg;mustard,milk;soy;wheat_gluten,both_sides_different,milk,celery,milk
+GOLD_0128,7622210611093,Barre tendre break,egg;milk;soy;wheat_gluten,egg;milk;soy;wheat_gluten,sesame,exact_agreement,,,
+GOLD_0129,4800016561023,Souper Meal Beef Brisket,milk;wheat_gluten,crustaceans;fish;milk;soy;wheat_gluten,celery;egg;sesame,kg_only_prediction,,crustaceans;fish;soy,
+GOLD_0130,4104420227514,Bio Ziegenkäse-Gebäck,wheat_gluten,,celery;sesame;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0131,87365290,AA Drink High Energy,,crustaceans,,kg_only_prediction,,crustaceans,
+GOLD_0132,0200155525056,Schwäbischer Linseneintopf,celery,celery;mustard,soy;tree_nut;wheat_gluten,kg_only_prediction,,mustard,
+GOLD_0133,5036456456417,Chicken nuggets,celery;wheat_gluten,celery;wheat_gluten,,exact_agreement,,,
+GOLD_0134,0036800112582,"Four meat pizza made with pepperoni, italian sausage, canadian bacon & bacon thin & crispy crust, four meat",milk;wheat_gluten,milk;soy;wheat_gluten,,kg_only_prediction,,soy,
+GOLD_0135,0016000170728,Creamy Peanut Butter & Dark Chocolate Bars,milk;peanut;soy;tree_nut,milk;peanut;soy,egg;tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0136,0057459731245,Jambon fumé forêt noire,celery,celery,,exact_agreement,,,
+GOLD_0137,0722252601445,CHOCOLATE MINT PROTEIN BAR,milk;soy;wheat_gluten,milk;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0138,5400101099968,CAR Ballotins poulet champignons,milk;wheat_gluten,milk;molluscs;wheat_gluten,celery;egg;mustard;soy,kg_only_prediction,,molluscs,
+GOLD_0139,0042421162714,CHARCUTERIE TRIO,celery,celery,,exact_agreement,,,
+GOLD_0140,6921665714344,Little Black Pearls Sesame,peanut;sesame;tree_nut;wheat_gluten,peanut;sesame,tree_nut;wheat_gluten,svm_only_prediction,tree_nut;wheat_gluten,,tree_nut;wheat_gluten
+GOLD_0141,3264295500806,"Lasagnes ricotta, chèvre, épinards surgelés",celery;egg;milk;wheat_gluten,egg;milk;wheat_gluten,celery;mustard;sesame;soy;tree_nut,svm_only_prediction,celery,,celery
+GOLD_0142,0077890416563,Pane di sesamo half loaf,sesame;wheat_gluten,sesame;wheat_gluten,,exact_agreement,,,
+GOLD_0143,8600939506936,Smoki Original Fresh Baked Peanuts,mustard;soy;wheat_gluten,peanut;soy,milk;mustard;wheat_gluten,both_sides_different,mustard;wheat_gluten,peanut,mustard;wheat_gluten
+GOLD_0144,8801043022002,Kimchi Noodle Soup 120G (pack of 5),milk;mustard;sesame;soy;wheat_gluten,celery;egg;milk;mustard;peanut;sesame;soy;wheat_gluten,,kg_only_prediction,,celery;egg;peanut,
+GOLD_0145,8713305809774,Party Mix,soy;wheat_gluten,sesame;soy;wheat_gluten,milk;mustard;tree_nut,kg_only_prediction,,sesame,
+GOLD_0146,8008698020722,Schär Snackers,soy,,lupin;soy,svm_only_prediction,soy,,soy
+GOLD_0147,4061461041908,Torts Tiramisu,milk;soy;wheat_gluten,egg;milk;wheat_gluten,mustard;soy,both_sides_different,soy,egg,soy
+GOLD_0148,3700009264638,Boulgour poulet et houmous,egg;mustard;sesame,egg;mustard;sesame;wheat_gluten,celery;tree_nut,kg_only_prediction,,wheat_gluten,
+GOLD_0149,3011360040176,Knorr potagere leg 875g,celery;milk,milk,celery;egg;mustard;soy;wheat_gluten,svm_only_prediction,celery,,celery
+GOLD_0150,3175690015331,50G Bte 1 / 15 T. H Filet Anchois La Monegasque,,mustard,,kg_only_prediction,,mustard,
+GOLD_0151,3564700698877,6 Quenelles nature,egg;milk;wheat_gluten,egg;wheat_gluten,milk,svm_only_prediction,milk,,milk
+GOLD_0152,4047247126809,Kesselgulasch,celery;mustard;wheat_gluten,celery;mustard,egg;milk;soy;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0153,3222473749676,Coquille Saint-Jacques,celery;milk;mustard;sesame;soy;tree_nut;wheat_gluten,celery;lupin;milk;mustard;sesame;soy;tree_nut;wheat_gluten,,kg_only_prediction,,lupin,
+GOLD_0154,5056357900796,Vegan Crumbled Cookie Chocolate,milk,milk;tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0155,0041220603404,All-Natural Smooth Almond Butter (salted),peanut;tree_nut,tree_nut,peanut,svm_only_prediction,peanut,,peanut
+GOLD_0156,0068000393485,Pot of Gold,milk;peanut;soy;tree_nut,milk;soy;tree_nut,peanut,svm_only_prediction,peanut,,peanut
+GOLD_0157,3474340024359,La Monbanette Noir,milk;soy;wheat_gluten,milk;soy,egg;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0158,3256228972767,"Saumon fumé au bois de hêtre, Atlantique Ecosse, salé au sel sec, 2 tranches - 75g",fish,fish,,exact_agreement,,,
+GOLD_0159,3366760016512,Menu Chef étoilé 1 personne,crustaceans;milk;wheat_gluten,celery;crustaceans;egg;milk;molluscs;wheat_gluten,mustard;soy,kg_only_prediction,,celery;egg;molluscs,
+GOLD_0160,5420030625212,,milk;mustard;soy;wheat_gluten,milk;soy;wheat_gluten,celery;egg;mustard;sesame;tree_nut,svm_only_prediction,mustard,,mustard
+GOLD_0161,3700153100059,Spordej,milk;soy,celery;egg;wheat_gluten,milk;soy,both_sides_different,milk;soy,celery;egg;wheat_gluten,milk;soy
+GOLD_0162,3222473264155,Mini Choux Tapenade 60G Co,egg;milk;wheat_gluten,egg;fish;milk;wheat_gluten,tree_nut,kg_only_prediction,,fish,
+GOLD_0163,4311501027028,Choco You Schoko-Bons,tree_nut;wheat_gluten,tree_nut,soy;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0164,8908024353084,Strawberry Donut Cake,egg;wheat_gluten,egg;wheat_gluten,,exact_agreement,,,
+GOLD_0165,3263859498122,Carottes rapées,,mustard,celery;egg;milk;soy;tree_nut;wheat_gluten,kg_only_prediction,,mustard,
+GOLD_0166,5201360671069,7Days Bake Rolls Pizza 80g,milk;tree_nut;wheat_gluten,,celery;egg;milk;peanut;sesame;tree_nut;wheat_gluten,svm_only_prediction,milk;tree_nut;wheat_gluten,,milk;tree_nut;wheat_gluten
+GOLD_0167,3222476992741,Toasts briochés au froment et aux graines,egg;sesame;soy;wheat_gluten,egg;sesame;wheat_gluten,soy,svm_only_prediction,soy,,soy
+GOLD_0168,3263852328518,Menthe Glaciale,tree_nut,,milk;tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0169,2495570001300,Pizza Speciale,wheat_gluten,wheat_gluten,,exact_agreement,,,
+GOLD_0170,0815196013495,Organic Kettle Corn Popcorn,peanut;soy,,milk;peanut;soy;tree_nut,svm_only_prediction,peanut;soy,,peanut;soy
+GOLD_0171,3535000050160,Samoussas aux légumes,celery;egg;lupin;milk;mustard;sesame;soy;wheat_gluten,celery;egg;lupin;milk;mustard;sesame;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0172,0008346800094,100 calorie snacks snack bites,milk;soy,,milk;soy;wheat_gluten,svm_only_prediction,milk;soy,,milk;soy
+GOLD_0173,5060834811901,Pistachio Queen - Keto Cream,lupin;sesame,lupin;tree_nut,peanut;sesame,both_sides_different,sesame,tree_nut,sesame
+GOLD_0174,3564700994535,270g viennois thon oeuf tomate,egg;fish;milk;mustard;wheat_gluten,egg;fish;mustard;wheat_gluten,milk,svm_only_prediction,milk,,milk
+GOLD_0175,4016249198282,Das ungesüßte Nuss-Müsli,sesame;tree_nut,sesame;tree_nut,milk;soy,exact_agreement,,,
+GOLD_0176,0810044574142,MRE Meal Remplacement,egg;fish;milk;peanut;tree_nut;wheat_gluten,egg;fish;milk;tree_nut;wheat_gluten,peanut;soy,svm_only_prediction,peanut,,peanut
+GOLD_0177,0077387126715,Cheese Stuffed Crust Pizza,milk;soy;wheat_gluten,soy,milk;wheat_gluten,svm_only_prediction,milk;wheat_gluten,,milk;wheat_gluten
+GOLD_0178,0077745217710,Complete salad kit,milk;mustard;soy;tree_nut,milk;mustard;soy;tree_nut,,exact_agreement,,,
+GOLD_0179,53124364,Petits pains grillés blé complet,wheat_gluten,sesame;soy,egg;milk;wheat_gluten,both_sides_different,wheat_gluten,sesame;soy,wheat_gluten
+GOLD_0180,3770029889029,Lupi Coffee,lupin,lupin,,exact_agreement,,,
+GOLD_0181,4099100067132,Nacho Cheese Flavored Tortilla Chips,milk;soy,milk;soy;wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0182,0851724008243,Protein Bar Chocolate Salted Caramel,peanut;tree_nut,peanut;tree_nut,,exact_agreement,,,
+GOLD_0183,5060136255434,Spinach feta and red pepper little lattices,egg;milk;mustard;wheat_gluten,egg;milk;mustard;wheat_gluten,,exact_agreement,,,
+GOLD_0184,8715700110622,Ketchup à la tomate,celery,celery,,exact_agreement,,,
+GOLD_0185,4058077763157,Hamburger Brötchen,lupin;sesame;wheat_gluten,sesame;wheat_gluten,lupin;milk;mustard;soy,svm_only_prediction,lupin,,lupin
+GOLD_0186,9311600002686,Honey Roasted Peanuts,peanut;tree_nut,peanut,milk;soy;tree_nut;wheat_gluten,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0187,0046100011232,"Monterey jack natural cheese, walnut oat granola with dark chocolate & golden raisins snacks, monterey jack natural cheese, walnut oat granola with dark chocolate & golden raisins",milk;wheat_gluten,milk;tree_nut;wheat_gluten,,kg_only_prediction,,tree_nut,
+GOLD_0188,8904063200341,Haldiram Bhel Puri,peanut;sesame;wheat_gluten,peanut;wheat_gluten,mustard;sesame,svm_only_prediction,sesame,,sesame
+GOLD_0189,3250393113307,Banana cake,egg;milk;wheat_gluten,egg;soy;wheat_gluten,milk;tree_nut,both_sides_different,milk,soy,milk
+GOLD_0190,9555022304533,Curry Laksa Cup Noodles,crustaceans;milk;soy;wheat_gluten,crustaceans;milk;wheat_gluten,fish;molluscs;peanut;sesame;soy,svm_only_prediction,soy,,soy
+GOLD_0191,0773200714700,Dark & White Chocolate Mousse,egg;milk;soy,egg;milk;soy,,exact_agreement,,,
+GOLD_0192,0064144106301,BUTTERY Toffee,milk;peanut;soy;tree_nut,milk;peanut;soy,tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0193,3582739700019,Makrouts,sesame;wheat_gluten,wheat_gluten,,svm_only_prediction,sesame,,
+GOLD_0194,3577722110234,Souskay De Morue 200 Grs Delice Locale,fish,fish,,exact_agreement,,,
+GOLD_0195,3263852916364,SABLÉS COCO,egg;milk;wheat_gluten,egg;milk;wheat_gluten,soy,exact_agreement,,,
+GOLD_0196,7088020064991,white sourdough bread,,,,exact_agreement,,,
+GOLD_0197,5054269005271,Smoked Salmon and Cucumber taster,milk;sesame;soy;wheat_gluten,fish;milk;sesame;soy;wheat_gluten,,kg_only_prediction,,fish,
+GOLD_0198,6221007030546,Bouillon aromatisé au poulet,wheat_gluten,,egg;milk;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0199,2600902011098,mélange confiseries,egg;milk;mustard;soy;wheat_gluten,celery;egg;lupin;milk;mustard;peanut;sesame;tree_nut;wheat_gluten,,both_sides_different,soy,celery;lupin;peanut;sesame;tree_nut,
+GOLD_0200,5200100943572,zero μπάρες δημητριακών,milk;peanut;soy;wheat_gluten,milk;sesame;soy;wheat_gluten,egg;lupin;mustard;peanut,both_sides_different,peanut,sesame,peanut
+GOLD_0201,9313268068011,pistachio halva,sesame,sesame;tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0202,7290000651248,Escalope Dinde BBQ,soy;wheat_gluten,soy,celery;mustard;sesame;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0203,5400112483701,Tartine saumon fumé et sauce gravlax,fish;mustard;soy;wheat_gluten,fish;milk;mustard;soy;wheat_gluten,,kg_only_prediction,,milk,
+GOLD_0204,8711200464999,Amora Sauce Salade Vinaigre Balsamique Echalote 210 ml Naturelle,mustard;sesame,,mustard;sesame,svm_only_prediction,mustard;sesame,,mustard;sesame
+GOLD_0205,0708152328729,Black Truffle Cheddar Cheese,fish;milk;soy,fish;milk;soy,,exact_agreement,,,
+GOLD_0206,3270160664405,"16 macarons (chocolat, vanille, framboise, café)",egg;milk;soy,egg;milk;soy;tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0207,5054781507895,Cinnamon Porridge Por,milk;peanut;wheat_gluten,milk;wheat_gluten,peanut,svm_only_prediction,peanut,,peanut
+GOLD_0208,5052675001139,Classic Lentil Tarka Daal,mustard;wheat_gluten,mustard,milk;peanut;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0209,9310015255731,Lightly Tangy (less salt),celery;milk,celery;milk;soy;wheat_gluten,,kg_only_prediction,,soy;wheat_gluten,
+GOLD_0210,3379145045700,Dan Dan Noodles,peanut;sesame;soy;wheat_gluten,sesame;soy;wheat_gluten,peanut,svm_only_prediction,peanut,,peanut
+GOLD_0211,5710885175339,Simply Flyind Felix,milk;sesame;soy;tree_nut;wheat_gluten,milk;peanut;sesame;soy;tree_nut,wheat_gluten,both_sides_different,wheat_gluten,peanut,wheat_gluten
+GOLD_0212,3270160892891,Black brisket burger,egg;milk;mustard;sesame;wheat_gluten,egg;milk;mustard;wheat_gluten,celery;sesame;soy;tree_nut,svm_only_prediction,sesame,,sesame
+GOLD_0213,0078742047324,Cheesecake,egg;milk;soy;wheat_gluten,milk;soy;wheat_gluten,egg,svm_only_prediction,egg,,egg
+GOLD_0214,8433329070973,Fideuá,celery;crustaceans;egg;fish;milk;soy;wheat_gluten,celery;crustaceans;egg;fish;milk;molluscs;soy;tree_nut;wheat_gluten,,kg_only_prediction,,molluscs;tree_nut,
+GOLD_0215,8710412045262,Choco S'mores Banaan,milk;wheat_gluten,,fish;milk;peanut;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,milk;wheat_gluten,,milk;wheat_gluten
+GOLD_0216,4088700151242,chicken kebabs,peanut;sesame;soy,milk;peanut;sesame;soy;wheat_gluten,,kg_only_prediction,,milk;wheat_gluten,
+GOLD_0217,0719212101039,Roasted Tomato Chipotle Corn Salsa,,,,exact_agreement,,,
+GOLD_0218,0005100021402,Microwavable Pasta In Meat Sauce,celery;milk;soy;wheat_gluten,celery;milk;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0219,3564700573792,Rillettes au crabe,crustaceans;milk;wheat_gluten,,celery;crustaceans;egg;milk;mustard;soy;wheat_gluten,svm_only_prediction,crustaceans;milk;wheat_gluten,,crustaceans;milk;wheat_gluten
+GOLD_0220,8008698046630,,egg;soy;tree_nut;wheat_gluten,egg;lupin;soy;tree_nut,,both_sides_different,wheat_gluten,lupin,
+GOLD_0221,3257983798838,Assortiment de crackerd,sesame;wheat_gluten,wheat_gluten,sesame,svm_only_prediction,sesame,,sesame
+GOLD_0222,0077958819305,Maine Lobster Bisqye,crustaceans;milk;wheat_gluten,crustaceans;milk;wheat_gluten,,exact_agreement,,,
+GOLD_0223,8718546999079,Tahini White,peanut;sesame,,peanut;sesame;tree_nut,svm_only_prediction,peanut;sesame,,peanut;sesame
+GOLD_0224,3367651007459,123 salade chevre miel,celery;egg;milk;mustard;tree_nut;wheat_gluten,celery;egg;milk;tree_nut;wheat_gluten,mustard;sesame;soy,svm_only_prediction,mustard,,mustard
+GOLD_0225,3433700017059,Le Baeckeoffe Traditionnel,celery;milk;mustard;wheat_gluten,celery;egg;milk;mustard;wheat_gluten,,kg_only_prediction,,egg,
+GOLD_0226,0857689447271,Mountain Mushroom Salt,crustaceans,crustaceans,,exact_agreement,,,
+GOLD_0227,8690710009428,Tahin Helva,sesame;tree_nut,sesame,tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0228,3279130101261,Pains D'épices Leckerlis D'alsace,egg;sesame;wheat_gluten,egg;peanut;sesame,,both_sides_different,wheat_gluten,peanut,
+GOLD_0229,3596710438853,"PAIN SURPRISE CAMPAGNESaumons et citrons confits Rillettes de canardThon, olives noires et citrons confitsFromage frais, figues séchées et noixFromage blanc, poivrons rouges et jaunes grillés",egg;fish;milk;mustard;tree_nut;wheat_gluten,egg;fish;milk;mustard;tree_nut;wheat_gluten,,exact_agreement,,,
+GOLD_0230,7627535913167,Quiche Lorraine,tree_nut;wheat_gluten,egg;wheat_gluten,celery;lupin;mustard;sesame;soy;tree_nut,both_sides_different,tree_nut,egg,tree_nut
+GOLD_0231,59671138,Oursons nappes,egg;milk;sesame;soy;wheat_gluten,egg;milk;sesame;soy;tree_nut;wheat_gluten,,kg_only_prediction,,tree_nut,
+GOLD_0232,0075450229707,Premium Toffee,milk;soy;tree_nut,milk;soy;tree_nut,,exact_agreement,,,
+GOLD_0233,3596710392117,Pot de crème saveur Pistache - Lait origine France,egg;milk;wheat_gluten,egg;milk;tree_nut,wheat_gluten,both_sides_different,wheat_gluten,tree_nut,wheat_gluten
+GOLD_0234,0078742142234,Ice cream,milk;peanut;soy;wheat_gluten,milk;peanut;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0235,8714100690437,Creme de poireaux aux St hacques,celery;crustaceans;tree_nut,celery;crustaceans;egg;mustard;tree_nut;wheat_gluten,,kg_only_prediction,,egg;mustard;wheat_gluten,
+GOLD_0236,4045800770803,Meister Fleischsalat Budapester Art,egg;mustard,celery;egg;mustard;wheat_gluten,,kg_only_prediction,,celery;wheat_gluten,
+GOLD_0237,9310645426020,Chicken Flavoured Rice,fish,,egg;fish;milk;peanut;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,fish,,fish
+GOLD_0238,0774756207098,Poulet au beurre,milk,milk;tree_nut,peanut,kg_only_prediction,,tree_nut,
+GOLD_0239,0011110505033,Deluxe churned ice cream,milk,milk;tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0240,3760134371076,Thon au naturel en morceaux,fish,fish,,exact_agreement,,,
+GOLD_0241,9310645204758,Thai green chicken curry,egg;fish;milk;soy,egg;fish;milk;sesame;soy;wheat_gluten,,kg_only_prediction,,sesame;wheat_gluten,
+GOLD_0242,8004640009050,Tiramisu,egg;milk;wheat_gluten,milk;wheat_gluten,,svm_only_prediction,egg,,
+GOLD_0243,8680244923727,bonjuks mini waffle cones,milk;peanut;sesame;soy;tree_nut;wheat_gluten,egg;milk;sesame;soy;tree_nut;wheat_gluten,peanut,both_sides_different,peanut,egg,peanut
+GOLD_0244,9345654000572,Bbq pulled pork,fish;mustard;peanut;sesame;soy,mustard;soy,fish;milk;peanut;sesame;tree_nut,svm_only_prediction,fish;peanut;sesame,,fish;peanut;sesame
+GOLD_0245,4000607732003,Gold Pistazie,egg;peanut;soy;wheat_gluten,egg;peanut;soy;tree_nut;wheat_gluten,,kg_only_prediction,,tree_nut,
+GOLD_0246,8716797573253,Samurai Cracker,soy;wheat_gluten,crustaceans;soy;wheat_gluten,,kg_only_prediction,,crustaceans,
+GOLD_0247,3222475424359,Mini goûters coeur fondant choco,egg;milk;soy;tree_nut;wheat_gluten,egg;milk;tree_nut;wheat_gluten,soy,svm_only_prediction,soy,,soy
+GOLD_0248,5400119549967,Saucisse de campagne + stoemp aux carottes,milk;mustard,egg;milk;mustard,,kg_only_prediction,,egg,
+GOLD_0249,7616500160576,Pralinor- Und Giandor-eili Assortiert,milk,,milk,svm_only_prediction,milk,,milk
+GOLD_0250,8717591513162,,,fish,,kg_only_prediction,,fish,
+GOLD_0251,3321431027457,Saumon pas fumé,fish;mustard,fish,celery;egg;milk;mustard;soy;wheat_gluten,svm_only_prediction,mustard,,mustard
+GOLD_0252,52527142,animal Kingdom chocolate,milk,,milk;tree_nut;wheat_gluten,svm_only_prediction,milk,,milk
+GOLD_0253,20055141,Chocolat noir quinoa bio,milk,milk;wheat_gluten,tree_nut,kg_only_prediction,,wheat_gluten,
+GOLD_0254,3386030005527,Nems au porc avec sauces,soy;wheat_gluten,egg;milk;sesame,soy;wheat_gluten,both_sides_different,soy;wheat_gluten,egg;milk;sesame,soy;wheat_gluten
+GOLD_0255,7622202015045,Bake Roles,celery;sesame;wheat_gluten,wheat_gluten,celery;egg;milk;peanut;sesame,svm_only_prediction,celery;sesame,,celery;sesame
+GOLD_0256,5900353616352,Chocoladorro 103 g,egg;milk,milk,egg;peanut;wheat_gluten,svm_only_prediction,egg,,egg
+GOLD_0257,0248675105990,California Quinoa Brown Rice Roll,fish;sesame;soy;wheat_gluten,fish;sesame;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0258,3261083317318,Crevettes cocktail,crustaceans,crustaceans,,exact_agreement,,,
+GOLD_0259,0812324026075,Three Sisters Chili,mustard,milk;mustard,,kg_only_prediction,,milk,
+GOLD_0260,93553520,"Cookies & Cream Vanilla Low-fat Greek Yogurt with Choc Cookie, Dark chocolate & Rice Crisps",milk;tree_nut,milk;wheat_gluten,egg;peanut;sesame;soy;tree_nut,both_sides_different,tree_nut,wheat_gluten,tree_nut
+GOLD_0261,4000417101211,,milk;tree_nut;wheat_gluten,milk;soy;tree_nut;wheat_gluten,egg;peanut,kg_only_prediction,,soy,
+GOLD_0262,0774223287851,Crème sure et oignons,milk;soy,,milk;mustard;soy;wheat_gluten,svm_only_prediction,milk;soy,,milk;soy
+GOLD_0263,0099482484446,Cold Pressed Organic Black Seed Oil,fish,,fish;tree_nut,svm_only_prediction,fish,,fish
+GOLD_0264,0602813370204,Sourdough bread,wheat_gluten,,tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0265,9000275637018,Deftige Gemüsesuppe mit Kartoffeln und Speck,celery;wheat_gluten,celery;soy;wheat_gluten,egg,kg_only_prediction,,soy,
+GOLD_0266,3088542500308,Pur Sirop d'Érable,,,,exact_agreement,,,
+GOLD_0267,8480017386571,Agua mineral natural - Fuente Primavera o La Majuela,,,,exact_agreement,,,
+GOLD_0268,0744446907331,,,sesame,tree_nut,kg_only_prediction,,sesame,
+GOLD_0269,0840423102222,"Ginger Miso With Ramen Noodles, Carrots, Green Beans, Red Bell Peppers, Mushrooms And Edamame Beans, Cooked In Avocado Oil, Ginger Miso",sesame;soy;tree_nut;wheat_gluten,milk;sesame;soy;tree_nut;wheat_gluten,,kg_only_prediction,,milk,
+GOLD_0270,3602826547423,moelleux au citron,egg;milk;peanut;sesame;soy;tree_nut;wheat_gluten,egg;milk;peanut;sesame;soy;wheat_gluten,,svm_only_prediction,tree_nut,,
+GOLD_0271,3276770027555,Oeufs de Truite,celery;egg;lupin;soy;tree_nut,celery;egg;lupin;milk;soy;tree_nut,,kg_only_prediction,,milk,
+GOLD_0272,2006050056286,Jus de pommes,,,,exact_agreement,,,
+GOLD_0273,0078742369952,Celery Salt,celery,celery,,exact_agreement,,,
+GOLD_0274,3760299915733,Sushi Poisson cru combo one,egg;fish;mustard;soy;wheat_gluten,egg;fish;mustard;soy;wheat_gluten,celery;milk;peanut;sesame,exact_agreement,,,
+GOLD_0275,2000000117744,Riz au lait fermier Chèvre Nature,,milk,,kg_only_prediction,,milk,
+GOLD_0276,0023300401483,Cheese crackers,milk;soy;wheat_gluten,,milk;soy;wheat_gluten,svm_only_prediction,milk;soy;wheat_gluten,,milk;soy;wheat_gluten
+GOLD_0277,5400141322880,saucisson de jambon,celery;milk;mustard;soy;wheat_gluten,celery;mustard;soy;wheat_gluten,egg;milk,svm_only_prediction,milk,,milk
+GOLD_0278,0602652204081,Healthy Grains Bar Almond Butter Dark Chocolate,milk;soy;tree_nut;wheat_gluten,milk;soy;tree_nut;wheat_gluten,,exact_agreement,,,
+GOLD_0279,7290006895301,Brochette De Poulet,celery;soy,soy,celery;mustard;sesame;wheat_gluten,svm_only_prediction,celery,,celery
+GOLD_0280,0073621721128,Marvel candy & dispenser,,,,exact_agreement,,,
+GOLD_0281,3760205593772,So Crazy Manzana,,,,exact_agreement,,,
+GOLD_0282,5420005740070,Cordon bleu tranches végétales & fromage,egg;milk;mustard;wheat_gluten,egg;milk;mustard;soy;wheat_gluten,,kg_only_prediction,,soy,
+GOLD_0283,0061763068836,Aiglefin sauvage,fish;wheat_gluten,fish;wheat_gluten,,exact_agreement,,,
+GOLD_0284,5201024010593,poppers bbq,wheat_gluten,,wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0285,6111266750777,Tchico Duo,peanut;soy,peanut,,svm_only_prediction,soy,,
+GOLD_0286,3800065711982,Un grande amore,milk;soy;tree_nut;wheat_gluten,milk;peanut;soy;tree_nut;wheat_gluten,,kg_only_prediction,,peanut,
+GOLD_0287,79041706,Pan tostado integral,,,,exact_agreement,,,
+GOLD_0288,8000500435588,Eat Natural vegan,milk;peanut;tree_nut,milk;peanut,tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0289,3350033293366,Galettes de riz nappées au chocolat noir,milk;soy,milk,soy,svm_only_prediction,soy,,soy
+GOLD_0290,5000171060051,John west harissa spiced super tuna salad with couscous and lentil,celery;egg;fish;wheat_gluten,fish;wheat_gluten,celery;egg,svm_only_prediction,celery;egg,,celery;egg
+GOLD_0291,3263856851913,Thon et fromage,fish;milk,celery;egg;fish;milk,,kg_only_prediction,,celery;egg,
+GOLD_0292,0021834591816,Zero Sugar Uncured Bacon,celery,celery,,exact_agreement,,,
+GOLD_0293,0200000513030,fin carré 74% kakao,milk;tree_nut;wheat_gluten,milk;tree_nut,peanut;soy;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0294,4088600058795,Seafood Sticks,egg;fish;wheat_gluten,egg;fish;wheat_gluten,,exact_agreement,,,
+GOLD_0295,3770000910483,Chips,,celery;milk;mustard,wheat_gluten,kg_only_prediction,,celery;milk;mustard,
+GOLD_0296,0011658822012,Jumbo Breaded Tail-On Mini Shrimp,crustaceans;soy;wheat_gluten,crustaceans;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0297,4260483957017,Bio Dinkel Hafer Brot,sesame;wheat_gluten,sesame;wheat_gluten,,exact_agreement,,,
+GOLD_0298,3596710467167,Vacherin Vanille Framboise,egg;milk;wheat_gluten,egg;milk,peanut;soy;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0299,4000281315516,Choco Peanut Müsli,milk;peanut;sesame;soy;wheat_gluten,lupin;milk;peanut;wheat_gluten,mustard;sesame;soy;tree_nut,both_sides_different,sesame;soy,lupin,sesame;soy
+GOLD_0300,13251212512630158291,Céleri Rave Quartier 5kg,celery,celery,,exact_agreement,,,
+GOLD_0301,8713576007107,Cacao fèves,sesame;soy;tree_nut,peanut;sesame;tree_nut,,both_sides_different,soy,peanut,
+GOLD_0302,6111017047132,,milk;soy;tree_nut;wheat_gluten,milk;soy;tree_nut,wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0303,5400112292303,Falafel Bio Burger Veggie,lupin;sesame;soy,sesame;soy,celery;egg;lupin;milk;mustard;tree_nut;wheat_gluten,svm_only_prediction,lupin,,lupin
+GOLD_0304,0888670194454,Sweet & Crunchy Blend,milk;peanut;soy;tree_nut,milk;peanut;soy;tree_nut,egg;sesame;wheat_gluten,exact_agreement,,,
+GOLD_0305,3700413400028,Kot nutrition,celery;lupin;milk;soy,celery;egg;lupin;milk;soy;tree_nut;wheat_gluten,,kg_only_prediction,,egg;tree_nut;wheat_gluten,
+GOLD_0306,4047247075794,Pesto gegrilltes Gemüse,egg;milk,egg,,svm_only_prediction,milk,,
+GOLD_0307,7090000697440,Åmli Store Sveler 300g,egg,egg,,exact_agreement,,,
+GOLD_0308,0083791191058,Zapps Voodoo Heat peg bag,peanut,peanut,,exact_agreement,,,
+GOLD_0309,8888107000275,Myojo Bowl Seafood,crustaceans;fish;milk;sesame;wheat_gluten,crustaceans;fish;milk;molluscs;sesame;wheat_gluten,,kg_only_prediction,,molluscs,
+GOLD_0310,0059527201551,Peanut Snack Bar,peanut,milk;peanut,sesame;tree_nut,kg_only_prediction,,milk,
+GOLD_0311,0089782031907,Raisin Loaf,egg;fish;soy;wheat_gluten,egg;milk;wheat_gluten,fish;peanut;soy,both_sides_different,fish;soy,milk,fish;soy
+GOLD_0312,8710398532763,NutMix,peanut;soy;wheat_gluten,peanut;tree_nut;wheat_gluten,milk;mustard;soy,both_sides_different,soy,tree_nut,soy
+GOLD_0313,0075391054291,Seafood festival,celery;crustaceans;milk,celery;crustaceans;milk;molluscs,,kg_only_prediction,,molluscs,
+GOLD_0314,3596710408009,Crêpes fourrées au Comté,celery;egg;milk;tree_nut;wheat_gluten,celery;milk;tree_nut;wheat_gluten,egg;soy,svm_only_prediction,egg,,egg
+GOLD_0315,5712871094853,Pizza Margherita,,,,exact_agreement,,,
+GOLD_0316,95188724439425613,"Red Lobster, Lobster Bisque, Bowl",,,,exact_agreement,,,
+GOLD_0317,2869864034631,Queues de crevettes décortiquées cuites réfrigérées,crustaceans,crustaceans,,exact_agreement,,,
+GOLD_0318,4021851187418,Vegetarische Wiener,,wheat_gluten,celery;mustard,kg_only_prediction,,wheat_gluten,
+GOLD_0319,5400606976832,Whey protein,milk;peanut;soy,celery;milk;mustard;peanut;soy;tree_nut,,kg_only_prediction,,celery;mustard;tree_nut,
+GOLD_0320,3701690403696,Maki California Thon Avocat,fish;mustard;sesame;wheat_gluten,fish;mustard;sesame,celery;egg;milk;peanut;soy;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0321,7610809029176,Mousse au thon,fish;soy;wheat_gluten,fish;milk;soy;wheat_gluten,,kg_only_prediction,,milk,
+GOLD_0322,5000328316666,Max strong  chilli &lime,mustard;peanut,peanut;wheat_gluten,milk;mustard,both_sides_different,mustard,wheat_gluten,mustard
+GOLD_0323,5014284004147,simply cook goan curry recipe kit,milk;mustard,milk;mustard,,exact_agreement,,,
+GOLD_0324,8713713051550,Lucovital,egg;milk;soy;wheat_gluten,milk;sesame;wheat_gluten,,both_sides_different,egg;soy,sesame,
+GOLD_0325,4602328005024,Хлеб Украинский,,,,exact_agreement,,,
+GOLD_0326,0007203672133,"Flaxseed waffles, flaxseed",egg;milk;soy;wheat_gluten,egg;milk;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0327,3263851128355,Soupe à l'oignon,celery;wheat_gluten,,celery;egg;milk;mustard;soy;wheat_gluten,svm_only_prediction,celery;wheat_gluten,,celery;wheat_gluten
+GOLD_0328,7613038942506,MAGGI Soupe Repas Curry 120g,celery;soy;wheat_gluten,celery;wheat_gluten,egg;milk;mustard;sesame;soy,svm_only_prediction,soy,,soy
+GOLD_0329,0075450152975,"Blueberry pancakes, blueberry",egg;milk;soy;wheat_gluten,egg;milk;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0330,8718161557807,Quinoa crisps,celery,,celery;milk;peanut;soy;wheat_gluten,svm_only_prediction,celery,,celery
+GOLD_0331,7610062087135,Petit amour,milk;soy;tree_nut;wheat_gluten,egg;milk;peanut;soy;tree_nut;wheat_gluten,,kg_only_prediction,,egg;peanut,
+GOLD_0332,0041735022615,Cobb salad with turkey & bacon,egg;milk;mustard,,egg;milk;mustard,svm_only_prediction,egg;milk;mustard,,egg;milk;mustard
+GOLD_0333,00087728,Lemon meringue fudge,egg;milk;soy;wheat_gluten,egg;milk;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0334,3259426043604,Le moelleux au chocolat,egg;milk;wheat_gluten,milk;wheat_gluten,egg;soy;tree_nut,svm_only_prediction,egg,,egg
+GOLD_0335,9006647726328,Tiefkühl express,,,,exact_agreement,,,
+GOLD_0336,3222475441677,Les Délicats Croquants de Cordes aux éclats d'amandes,egg;soy;wheat_gluten,egg;wheat_gluten,milk;soy,svm_only_prediction,soy,,soy
+GOLD_0337,6111250477550,,peanut;sesame;soy,peanut,sesame;soy,svm_only_prediction,sesame;soy,,sesame;soy
+GOLD_0338,5425005480056,biscovit,soy,,egg;milk;sesame;soy;wheat_gluten,svm_only_prediction,soy,,soy
+GOLD_0339,3530180002572,Baguette céréales,egg;sesame;wheat_gluten,sesame;wheat_gluten,egg;milk;soy,svm_only_prediction,egg,,egg
+GOLD_0340,3222476707192,Mélange d'épices,celery;egg;mustard;sesame;wheat_gluten,,celery;egg;milk;mustard;sesame;soy;wheat_gluten,svm_only_prediction,celery;egg;mustard;sesame;wheat_gluten,,celery;egg;mustard;sesame;wheat_gluten
+GOLD_0341,4255582816082,Protein Powder Smooth Chocolate,milk;soy;wheat_gluten,egg;lupin;milk;soy;wheat_gluten,,kg_only_prediction,,egg;lupin,
+GOLD_0342,4016810470205,Nissin Ramen Beef,celery;egg;milk;mustard;peanut;sesame;soy;wheat_gluten,celery;crustaceans;egg;fish;mustard;peanut;sesame;soy;wheat_gluten,milk,both_sides_different,milk,crustaceans;fish,milk
+GOLD_0343,0264455947147,Taboulé aux 5 légumes,celery;wheat_gluten,,celery;milk;wheat_gluten,svm_only_prediction,celery;wheat_gluten,,celery;wheat_gluten
+GOLD_0344,0193937001582,,crustaceans;milk;sesame;soy;wheat_gluten,crustaceans;milk;molluscs;soy;wheat_gluten,egg;fish;sesame,both_sides_different,sesame,molluscs,sesame
+GOLD_0345,5055936873667,"Myprotein Pro Bar Elite, Caramel Hazelnut(sample )",egg;peanut;soy;wheat_gluten,egg;peanut;soy;tree_nut;wheat_gluten,,kg_only_prediction,,tree_nut,
+GOLD_0346,3256227754845,Pizz burger pur boeuf et cheddar fondu et une sauce,milk;mustard;wheat_gluten,milk;mustard;wheat_gluten,egg,exact_agreement,,,
+GOLD_0347,4006276001563,Meatballs American BBQ,mustard;wheat_gluten,mustard;wheat_gluten,celery,exact_agreement,,,
+GOLD_0348,8714601010192,Chocolat,egg;milk;soy;tree_nut,egg;milk;peanut;soy;tree_nut;wheat_gluten,,kg_only_prediction,,peanut;wheat_gluten,
+GOLD_0349,4088600002576,King Prawn Cocktail,crustaceans;egg;fish;mustard;sesame;wheat_gluten,crustaceans;egg;fish;molluscs;mustard;sesame;wheat_gluten,,kg_only_prediction,,molluscs,
+GOLD_0350,4250581610112,Bio-Dinkel-Saaten,sesame,sesame;wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0351,0810067725477,Three Cheese Supreme Pizza,celery;milk;wheat_gluten,celery;milk;soy;wheat_gluten,,kg_only_prediction,,soy,
+GOLD_0352,8906019564163,Sing Bhujiya,peanut;sesame,peanut,milk;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,sesame,,sesame
+GOLD_0353,5010338303983,Thai Green Curry,milk;tree_nut,milk;sesame;tree_nut,,kg_only_prediction,,sesame,
+GOLD_0354,5201004043276,2plogemista hazelnut,milk;peanut;soy;tree_nut,milk;soy;tree_nut;wheat_gluten,egg;lupin;mustard;peanut;sesame,both_sides_different,peanut,wheat_gluten,peanut
+GOLD_0355,0816546010027,Breakfast handheld aussie pies,celery;egg;milk;soy;wheat_gluten,celery;egg;milk;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0356,3582730001078,Corne de gazelle x2,egg;peanut;soy;wheat_gluten,peanut;soy;wheat_gluten,,svm_only_prediction,egg,,
+GOLD_0357,0814109021367,Cookie Pop Popcorn,egg;milk;peanut;soy;wheat_gluten,milk;soy,egg;peanut;tree_nut;wheat_gluten,svm_only_prediction,egg;peanut;wheat_gluten,,egg;peanut;wheat_gluten
+GOLD_0358,4251739048030,Dessing Sesam-Koriander-Ingwer,sesame;soy;wheat_gluten,sesame,,svm_only_prediction,soy;wheat_gluten,,
+GOLD_0359,5039303007763,Punk IPA BBQ Rub,,,,exact_agreement,,,
+GOLD_0360,0046457322609,Popcorn dust with no salt,celery,celery,,exact_agreement,,,
+GOLD_0361,3583787357330,Whey protein cookies & cream,egg;milk,milk,celery;egg;soy;wheat_gluten,svm_only_prediction,egg,,egg
+GOLD_0362,5400101041356,Filière Qualité Carrefour Océan Délices Carpaccio de Saumon Nature,fish,fish,celery;egg;milk;mustard;sesame;soy;wheat_gluten,exact_agreement,,,
+GOLD_0363,3596710492619,Les Potatoes Bistro,wheat_gluten,,celery;egg;milk;soy;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0364,4009700042637,100% Pflanzlich Hafer Mango,,wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0365,3523680518551,Queues de crevettes décortiquées BEURRE POIVRÉ,crustaceans;milk,crustaceans;milk,,exact_agreement,,,
+GOLD_0366,3270160823901,Fondant au chocolat et aux noisettes,milk;soy;tree_nut;wheat_gluten,milk;soy;tree_nut;wheat_gluten,,exact_agreement,,,
+GOLD_0367,5400606948877,Dattes,peanut;sesame;soy,peanut;sesame;soy;tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0368,4000956026402,Mini Eierlikör-Trüffel,tree_nut,,soy;tree_nut;wheat_gluten,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0369,4897878800025,TONKOTSU FLAVOR RAMEN NOODLES,milk;sesame;soy;wheat_gluten,lupin;milk;sesame;soy;wheat_gluten,,kg_only_prediction,,lupin,
+GOLD_0370,0040000443278,"Milk chocolate, peanuts, caramel, nougat",egg;milk;peanut;soy,egg;milk;peanut;soy,,exact_agreement,,,
+GOLD_0371,3250392765019,Sandwich club Trio - Thon oeufs crudités x3 - MONIQUE RANOU - 230g,egg;fish;mustard;wheat_gluten,celery;egg;fish;lupin;milk;mustard;sesame;soy;tree_nut;wheat_gluten,,kg_only_prediction,,celery;lupin;milk;sesame;soy;tree_nut,
+GOLD_0372,0214110519592,Pesto pasta salad,egg;fish;milk;soy;wheat_gluten,egg;fish;milk;peanut;sesame;soy;tree_nut;wheat_gluten,,kg_only_prediction,,peanut;sesame;tree_nut,
+GOLD_0373,3270160892112,30 Canapés Traiteur,egg;fish;milk;tree_nut;wheat_gluten,crustaceans;egg;fish;milk;tree_nut;wheat_gluten,,kg_only_prediction,,crustaceans,
+GOLD_0374,3222473590292,Les Fameuses galettes suédoises au chocolat,egg;milk;soy;wheat_gluten,egg;milk;wheat_gluten,soy;tree_nut,svm_only_prediction,soy,,soy
+GOLD_0375,3700749308128,Soupe fraîche potiron châtaigne lait d'amande Bio 1L,tree_nut,tree_nut,,exact_agreement,,,
+GOLD_0376,5400141277449,Huile de sésame,sesame,sesame,,exact_agreement,,,
+GOLD_0377,77730817,Lizi's Granola Passion Fruit & Pistachio,peanut;tree_nut;wheat_gluten,tree_nut;wheat_gluten,peanut,svm_only_prediction,peanut,,peanut
+GOLD_0378,07965207,saucisson de veau,milk;mustard,egg;milk;mustard,,kg_only_prediction,,egg,
+GOLD_0379,3428420021158,Passion Entremet Glacé Mangue Passion,egg;milk;tree_nut;wheat_gluten,milk;soy;tree_nut;wheat_gluten,,both_sides_different,egg,soy,
+GOLD_0380,2157380000002,croissant,milk;wheat_gluten,egg;milk;tree_nut;wheat_gluten,celery;mustard;sesame,kg_only_prediction,,egg;tree_nut,
+GOLD_0381,20290849,,milk;wheat_gluten,lupin;milk;sesame,egg;soy;wheat_gluten,both_sides_different,wheat_gluten,lupin;sesame,wheat_gluten
+GOLD_0382,7613356570115,Kokos-Makrönli,egg;milk,egg;milk;tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0383,7071864017049,Toffee Cookies,,tree_nut,,kg_only_prediction,,tree_nut,
+GOLD_0384,3560071540593,"SALAD' Mini Penne, Lardons fumés, Chèvre",egg;milk;mustard;soy;wheat_gluten,egg;milk;mustard;soy;wheat_gluten,celery;sesame;tree_nut,exact_agreement,,,
+GOLD_0385,5060534010482,Fresh instant noodles,fish;soy;wheat_gluten,sesame;soy;wheat_gluten,egg;fish;milk,both_sides_different,fish,sesame,fish
+GOLD_0386,0091037609069,"Gumbo starter, gotcha",celery;mustard;wheat_gluten,,celery;crustaceans;mustard;wheat_gluten,svm_only_prediction,celery;mustard;wheat_gluten,,celery;mustard;wheat_gluten
+GOLD_0387,3760024686013,Gratin dauphinois,celery;egg;milk;wheat_gluten,celery;egg;milk;wheat_gluten,,exact_agreement,,,
+GOLD_0388,0698639080038,Orange Sauce,soy;wheat_gluten,soy;wheat_gluten,,exact_agreement,,,
+GOLD_0389,0795404153338,Rub Style Pizza,milk;soy;wheat_gluten,,milk;soy;wheat_gluten,svm_only_prediction,milk;soy;wheat_gluten,,milk;soy;wheat_gluten
+GOLD_0390,6001065601083,DAIRY MILK BISCUIT,milk;wheat_gluten,,milk;wheat_gluten,svm_only_prediction,milk;wheat_gluten,,milk;wheat_gluten
+GOLD_0391,3256228686589,Muesli fruits secs amandes & noisettes,tree_nut;wheat_gluten,wheat_gluten,milk;soy;tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0392,8436015786110,,egg;milk;soy;wheat_gluten,fish;lupin;milk;peanut;soy;wheat_gluten,egg,both_sides_different,egg,fish;lupin;peanut,egg
+GOLD_0393,4770190379267,surimi nūj.Viči Snow crab 250g,egg;fish;milk,egg;fish;wheat_gluten,celery;milk;mustard;soy,both_sides_different,milk,wheat_gluten,milk
+GOLD_0394,9010029000227,Fungi Pad Italy,milk,egg;milk,,kg_only_prediction,,egg,
+GOLD_0395,4335619299740,HALVA SPECULOOS,wheat_gluten,sesame;soy;wheat_gluten,egg;milk;peanut,kg_only_prediction,,sesame;soy,
+GOLD_0396,8715700413785,Spagheroni tradizionale,celery,celery,,exact_agreement,,,
+GOLD_0397,0040822027045,Classic Hummus,sesame;soy,sesame;soy,,exact_agreement,,,
+GOLD_0398,0782796023486,Red Bliss Potato Salad,celery;egg;mustard;soy,celery;egg;milk;mustard;soy,,kg_only_prediction,,milk,
+GOLD_0399,0030034080983,Roasted salted pistachios,peanut;tree_nut,peanut;tree_nut,,exact_agreement,,,
+GOLD_0400,5400113761976,Coquilles Saint-Jacques,celery;crustaceans;milk;wheat_gluten,celery;crustaceans;milk;tree_nut;wheat_gluten,,kg_only_prediction,,tree_nut,
+GOLD_0401,0021908194028,Organic Harvest Berry Chewy Granola Bar,wheat_gluten,wheat_gluten,,exact_agreement,,,
+GOLD_0402,0093966006803,Sharp cheddar cheese & beef summer sausage with stone-ground wheat crackers,celery;milk;wheat_gluten,celery;milk;wheat_gluten,,exact_agreement,,,
+GOLD_0403,3222472864776,24 mini tartelettes surgelées,celery;egg;fish;milk;wheat_gluten,celery;crustaceans;egg;fish;milk;wheat_gluten,lupin;mustard;sesame;soy;tree_nut,kg_only_prediction,,crustaceans,
+GOLD_0404,0071430009253,Classic salad kit,egg;milk;mustard;soy;wheat_gluten,egg;milk;mustard;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0405,0627739715106,Sardines vegetable oil,fish,fish,,exact_agreement,,,
+GOLD_0406,0730050000131,Frozen Cooked Crab Meat Jumbo Lump,crustaceans,crustaceans,,exact_agreement,,,
+GOLD_0407,6191599100432,Cake degla,egg;sesame;soy;wheat_gluten,egg;sesame;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0408,3443705060622,cocktail de fruits de mer,fish;milk;molluscs;mustard;wheat_gluten,fish;milk;molluscs;mustard;wheat_gluten,,exact_agreement,,,
+GOLD_0409,325622263007600,Huile de noisette Bouteille 25cL,sesame;tree_nut,tree_nut,sesame,svm_only_prediction,sesame,,sesame
+GOLD_0410,3700345901914,Grand Seau Oursons Guimauves Chocolat 220 g,,,,exact_agreement,,,
+GOLD_0411,3596710550562,Tartinable Thon,egg;fish;wheat_gluten,egg;fish,celery;milk;mustard;sesame;soy;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0412,0193968332693,Dark Chocolate Sea Salt Caramels,milk;soy;tree_nut,milk;soy,egg;peanut;tree_nut;wheat_gluten,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0413,0776703002275,T&T butter cookies,egg;milk;peanut;wheat_gluten,egg;milk;wheat_gluten,peanut;sesame;soy;tree_nut,svm_only_prediction,peanut,,peanut
+GOLD_0414,4006894109603,Waffeleier,egg;lupin;peanut;sesame;soy;wheat_gluten,egg;lupin;peanut;sesame;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0415,8585002428875,Gazdovská polievka,celery;wheat_gluten,egg;wheat_gluten,celery;fish;milk;soy,both_sides_different,celery,egg,celery
+GOLD_0416,7610032052064,Dar Vida Choco,milk;sesame;tree_nut;wheat_gluten,milk;sesame;wheat_gluten,tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0417,0817719641079,Mint Chocolate Chip High Protein Baked Bar,milk;peanut;soy;tree_nut,milk;peanut;soy;tree_nut,,exact_agreement,,,
+GOLD_0418,4311501672464,My Veggie Erdnussmus,milk;sesame,lupin;milk;sesame,,kg_only_prediction,,lupin,
+GOLD_0419,5054781796701,katsu curry stir fry sauce,celery;milk;sesame;soy;wheat_gluten,celery;milk;soy;wheat_gluten,sesame,svm_only_prediction,sesame,,sesame
+GOLD_0420,8680746000155,Turkish delight,,tree_nut,sesame,kg_only_prediction,,tree_nut,
+GOLD_0421,3760048511407,Moules de Bouchot de la Baie du Mont Saint Michel,molluscs,molluscs,,exact_agreement,,,
+GOLD_0422,4068261009107,Augurkenschijven / Tranches de cornichons / Gurkenscheiben,mustard,mustard,,exact_agreement,,,
+GOLD_0423,00445108,Garlic and Herb y mix,wheat_gluten,wheat_gluten,,exact_agreement,,,
+GOLD_0424,5000328125909,Oven baked crisps,milk;mustard;wheat_gluten,celery;mustard,milk;wheat_gluten,both_sides_different,milk;wheat_gluten,celery,milk;wheat_gluten
+GOLD_0425,5420018087483,Gauffre demi-choco,wheat_gluten,wheat_gluten,,exact_agreement,,,
+GOLD_0426,0000819031462,,milk;soy;wheat_gluten,egg;milk;soy;wheat_gluten,,kg_only_prediction,,egg,
+GOLD_0427,0627987271447,Atlantic Canadian Lobster,crustaceans,crustaceans,,exact_agreement,,,
+GOLD_0428,6294003532956,Nestle Kitkat Chocolate,milk;wheat_gluten,,milk;soy;wheat_gluten,svm_only_prediction,milk;wheat_gluten,,milk;wheat_gluten
+GOLD_0429,4316268708630,Butter Ringe,tree_nut;wheat_gluten,wheat_gluten,mustard;tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0430,07518326,maltesers,egg;milk;soy;wheat_gluten,milk;soy;wheat_gluten,egg,svm_only_prediction,egg,,egg
+GOLD_0431,8717677339976,Milk Chocolate Almond Honey Nougat,egg;milk;peanut;tree_nut,egg;milk;tree_nut,peanut;wheat_gluten,svm_only_prediction,peanut,,peanut
+GOLD_0432,9000331608709,Belvedere Gebäckmischung,milk;soy,milk;soy;tree_nut;wheat_gluten,,kg_only_prediction,,tree_nut;wheat_gluten,
+GOLD_0433,0639192721532,Instant non-fried noodles,fish;milk;sesame;soy;wheat_gluten,fish;milk;sesame;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0434,3255140000121,"Mini-bouchées Prêtes à Garnir, La Boîte De 12 -",egg;milk;wheat_gluten,egg;wheat_gluten,milk,svm_only_prediction,milk,,milk
+GOLD_0435,3596710453214,Terrine de 3 Poissons,fish;milk;wheat_gluten,fish;milk,celery;egg;mustard;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0436,3304210000087,Pogne à l'ancienne,egg;milk,egg;milk,,exact_agreement,,,
+GOLD_0437,3365629135012,Rillettes de Maquereaux à la Bière,,wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0438,0888670025963,Farm raised atlantic salmon,fish,fish,,exact_agreement,,,
+GOLD_0439,3700462064868,Pizza poulet curry,egg;milk;mustard;soy;wheat_gluten,milk;mustard;soy;wheat_gluten,egg,svm_only_prediction,egg,,egg
+GOLD_0440,4062300388536,"Smoothie Eple, Pære, Blåbær og Solbær med Jern Fra 6 mnd, Økologisk, 100 g",,wheat_gluten,,kg_only_prediction,,wheat_gluten,
+GOLD_0441,0073230000607,Smoked Oysters with Red Chili Pepper,molluscs,molluscs,,exact_agreement,,,
+GOLD_0442,325622746586400,Assortiment bonbons saveurs fruits et caramels 340g,milk;tree_nut,milk,soy;tree_nut,svm_only_prediction,tree_nut,,tree_nut
+GOLD_0443,8718452413386,Saté saus kant en klaar,soy,soy,,exact_agreement,,,
+GOLD_0444,0857750003559,Applewood Smoked Uncured Bacon,,,,exact_agreement,,,
+GOLD_0445,0011594100533,Cascade style potato chips,,,,exact_agreement,,,
+GOLD_0446,3021690028072,Chorba,celery;egg;wheat_gluten,celery;egg,milk;mustard,svm_only_prediction,wheat_gluten,,
+GOLD_0447,3596710413034,Paëlla,crustaceans;milk;molluscs,crustaceans;molluscs,celery;egg;milk;mustard;soy;tree_nut;wheat_gluten,svm_only_prediction,milk,,milk
+GOLD_0448,8690504083733,,egg;milk;sesame;soy;wheat_gluten,sesame;wheat_gluten,egg;milk;soy,svm_only_prediction,egg;milk;soy,,egg;milk;soy
+GOLD_0449,3384230030042,Terrine de chevreuil aux noix du Dauphiné et Chartreuse,egg;mustard;sesame,egg;sesame;tree_nut,milk;mustard;wheat_gluten,both_sides_different,mustard,tree_nut,mustard
+GOLD_0450,8717677074129,Easter moments,milk;peanut;wheat_gluten,milk;soy,peanut;sesame;tree_nut;wheat_gluten,both_sides_different,peanut;wheat_gluten,soy,peanut;wheat_gluten
+GOLD_0451,0770795700439,Dried Mango,peanut;sesame,,milk;mustard;peanut;sesame;tree_nut;wheat_gluten,svm_only_prediction,peanut;sesame,,peanut;sesame
+GOLD_0452,0021130944176,Deluxe Mixed Nuts,peanut;tree_nut,peanut;tree_nut,,exact_agreement,,,
+GOLD_0453,3103220029053,Langue Acide Pik 105 Pièces,wheat_gluten,,milk;wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0454,3261088453011,Frutti DI MARE,crustaceans,crustaceans;molluscs,celery;egg;milk;soy;wheat_gluten,kg_only_prediction,,molluscs,
+GOLD_0455,0070057366855,Cajun Seafood Dip,crustaceans;milk;molluscs;soy,crustaceans;milk;molluscs;soy,,exact_agreement,,,
+GOLD_0456,4010139133001,,soy;tree_nut;wheat_gluten,soy;tree_nut,wheat_gluten,svm_only_prediction,wheat_gluten,,wheat_gluten
+GOLD_0457,0026662112226,Olive Pomace Oil,,,,exact_agreement,,,
+GOLD_0458,3256220206914,Gâteau marbré goût chocolat,egg;milk;wheat_gluten,egg;wheat_gluten,milk;tree_nut,svm_only_prediction,milk,,milk
+GOLD_0459,0094776081745,Roasted/Salted Sunflower Meat,peanut,peanut,,exact_agreement,,,
+GOLD_0460,3564700041758,Vacherin vanille framboise,egg;milk;peanut,egg;milk,peanut;soy;tree_nut;wheat_gluten,svm_only_prediction,peanut,,peanut
+GOLD_0461,5017840008191,Bakewell Tart,egg;milk;tree_nut;wheat_gluten,egg;lupin;milk;tree_nut;wheat_gluten,,kg_only_prediction,,lupin,
+GOLD_0462,0390394010540,"Lily O'Brien's, Desserts Collection Contains 18 Chococlates",milk;soy;wheat_gluten,milk;soy;tree_nut;wheat_gluten,,kg_only_prediction,,tree_nut,
+GOLD_0463,3760239140386,Glace bio vanille avec sauce aux fraises,egg;milk;tree_nut,,egg;milk;tree_nut,svm_only_prediction,egg;milk;tree_nut,,egg;milk;tree_nut
+GOLD_0464,9317444002134,Avocado with Sea Salt,egg;fish;mustard;sesame;tree_nut,egg;fish;mustard;sesame;tree_nut,,exact_agreement,,,
+GOLD_0465,3760147891035,Chausson pomme,egg;milk;soy;tree_nut;wheat_gluten,egg;milk;soy;wheat_gluten,,svm_only_prediction,tree_nut,,
+GOLD_0466,4003148733126,Müsliherzen,milk,,milk;soy;wheat_gluten,svm_only_prediction,milk,,milk
+GOLD_0467,3523680535589,Onigiri SAUMON TERIYAKI,fish;sesame;soy;wheat_gluten,fish;soy;wheat_gluten,egg;milk;mustard;sesame,svm_only_prediction,sesame,,sesame
+GOLD_0468,4030387757095,No. 1 Extra Dark 85%,milk;peanut;tree_nut,milk;soy,peanut;tree_nut;wheat_gluten,both_sides_different,peanut;tree_nut,soy,peanut;tree_nut
+GOLD_0469,6111184007625,Sauce andalouse star 290 g,egg;mustard,egg;mustard,,exact_agreement,,,
+GOLD_0470,3305010101011,12 Grandes Crêpes de Froment,egg;milk;soy;wheat_gluten,egg;milk;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0471,0681131282611,Decadent oatmeal raisin cookies,egg;soy;wheat_gluten,,egg;milk;peanut;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,egg;soy;wheat_gluten,,egg;soy;wheat_gluten
+GOLD_0472,3596710494163,Muesli croustillant chocolat,lupin;milk;sesame;tree_nut;wheat_gluten,milk;wheat_gluten,lupin;mustard;peanut;sesame;soy;tree_nut,svm_only_prediction,lupin;sesame;tree_nut,,lupin;sesame;tree_nut
+GOLD_0473,5411188110835,"Alpro Mandeldrink, Original 1L",peanut;tree_nut,tree_nut,peanut,svm_only_prediction,peanut,,peanut
+GOLD_0474,8718452537471,"Jumbo Ice Tea Sparkling Original 1,5L",,,,exact_agreement,,,
+GOLD_0475,5411188138112,EDEKA Alpro Danone ALPRO® Joghurt Soja Hafer 400g 1.99€ 1kg 4.98€,peanut;soy,soy;wheat_gluten,peanut,both_sides_different,peanut,wheat_gluten,peanut
+GOLD_0476,0284091002307,TESCO Tesco Finest Belgian Triple Chocolate Muffin,egg;milk;peanut;sesame;wheat_gluten,egg;milk;peanut;sesame;wheat_gluten,,exact_agreement,,,
+GOLD_0477,4006894273007,Mozart-Kugeln Zartbitter,egg;lupin;peanut;sesame;soy;tree_nut;wheat_gluten,egg;lupin;peanut;sesame;soy;tree_nut;wheat_gluten,,exact_agreement,,,
+GOLD_0478,3273230241643,Fraich' Cup Océane,crustaceans;egg;milk;mustard;wheat_gluten,crustaceans;egg;mustard;wheat_gluten,,svm_only_prediction,milk,,
+GOLD_0479,0070438105066,Grand traverse bay ice cream,milk;peanut;soy,milk;peanut;soy,,exact_agreement,,,
+GOLD_0480,3760298510595,Mini Bacon Burger x6,egg;milk;mustard;sesame;soy;wheat_gluten,egg;milk;mustard;sesame;soy;tree_nut;wheat_gluten,,kg_only_prediction,,tree_nut,
+GOLD_0481,0070662406038,Cup noodles Ramen bistro,egg;fish;milk;sesame;soy;wheat_gluten,egg;milk;soy;wheat_gluten,fish;peanut;sesame;tree_nut,svm_only_prediction,fish;sesame,,fish;sesame
+GOLD_0482,3061990138583,Goûter familial,milk;wheat_gluten,milk,,svm_only_prediction,wheat_gluten,,
+GOLD_0483,0203208079179,Saumon fumé,fish,fish,,exact_agreement,,,
+GOLD_0484,8693029201415,Truffle,milk,milk,,exact_agreement,,,
+GOLD_0485,3173281446427,Dark Chocolate 72%,milk,,milk;tree_nut;wheat_gluten,svm_only_prediction,milk,,milk
+GOLD_0486,0031290721320,Dark chocolate 72% cacao,milk;peanut;soy;wheat_gluten,milk;soy,peanut;tree_nut;wheat_gluten,svm_only_prediction,peanut;wheat_gluten,,peanut;wheat_gluten
+GOLD_0487,5901135014847,,mustard,mustard,,exact_agreement,,,
+GOLD_0488,3350033374874,Herbes basilic,celery;mustard;peanut;sesame;soy;wheat_gluten,,celery;mustard;peanut;sesame;soy;tree_nut;wheat_gluten,svm_only_prediction,celery;mustard;peanut;sesame;soy;wheat_gluten,,celery;mustard;peanut;sesame;soy;wheat_gluten
+GOLD_0489,5070003671281,,sesame;wheat_gluten,sesame;wheat_gluten,,exact_agreement,,,
+GOLD_0490,5400101094734,Carrefour The Market Traiteur Gourmet Dés de Filet de Poulet,milk;mustard,celery;milk;mustard,egg;peanut;sesame;soy;tree_nut;wheat_gluten,kg_only_prediction,,celery,
+GOLD_0491,5060231727546,Nuts,celery;milk;mustard;sesame;wheat_gluten,celery;milk;mustard;peanut;wheat_gluten,sesame,both_sides_different,sesame,peanut,sesame
+GOLD_0492,0073416562806,Family farms thin stackers organic lemon poppy,milk;soy,milk;soy,,exact_agreement,,,
+GOLD_0493,3300060400992,Suprême de homard,celery;crustaceans;milk,crustaceans;milk,celery;egg;mustard;soy;tree_nut;wheat_gluten,svm_only_prediction,celery,,celery
+GOLD_0494,3701138133857,"Poulet fermier mariné au citron confit, boulgour,legumes",celery;soy;wheat_gluten,celery;mustard;soy;wheat_gluten,,kg_only_prediction,,mustard,
+GOLD_0495,3450120000607,Olives Vertes Farcies Au Saumon,crustaceans;fish,crustaceans,fish,svm_only_prediction,fish,,fish
+GOLD_0496,0042272010059,Chinese Noodles & Veggies in a Cashew Cream Sauce,soy;tree_nut,soy;tree_nut,,exact_agreement,,,
+GOLD_0497,8718452815364,Witte Bol,lupin;sesame;soy;wheat_gluten,lupin;sesame;soy;wheat_gluten,,exact_agreement,,,
+GOLD_0498,3116430217547,Cookies Classique Noisette,egg;milk;soy;wheat_gluten,egg;milk;wheat_gluten,soy;tree_nut,svm_only_prediction,soy,,soy
+GOLD_0499,3356067798952,Pad Thai poulet,crustaceans;milk;peanut;soy;wheat_gluten,crustaceans;milk;peanut;sesame;soy;tree_nut;wheat_gluten,,kg_only_prediction,,sesame;tree_nut,
+GOLD_0500,4000540043013,Zauberfleks Schoko,,wheat_gluten,,kg_only_prediction,,wheat_gluten,

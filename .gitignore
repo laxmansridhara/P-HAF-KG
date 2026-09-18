@@ -1,28 +1,56 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 
 # Virtual environments
 .venv/
+.venv_final/
 venv/
 env/
-
-# Jupyter
-.ipynb_checkpoints/
 
 # macOS
 .DS_Store
 
-# VS Code
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
 .vscode/
+.idea/
 
-# Data
-data/
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Results
-results/
-
-# Logs
+# Logs and temporary files
 *.log
+*.tmp
+*.temp
+
+# OS/editor temporary files
+*.swp
+*.swo
+*~
+
+# Secrets / local configuration
+.env
+.env.*
+
+# Temporary experiment/output files
+*.save
+
+# Raw source datasets that are not part of the final release
+data/raw/
+data/external/
+
+# Python build artefacts
+build/
+dist/
+*.egg-info/
+data/en.openfoodfacts.org.products (1).csv
+
+results/clean_food_dataset.csv
+data/processed/scan/p_haf_kg_v2_1_large_scale_4535553.csv

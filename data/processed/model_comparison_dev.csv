@@ -1,0 +1,9 @@
+metric,keyword_baseline,p_haf_kg_v2_1,improvement_percent
+Micro Precision,0.5053,N/A,N/A
+Micro Recall,0.9231,N/A,N/A
+Micro F1,0.6531,0.9623,47.34%
+Macro Precision,0.2571,0.4949,92.49%
+Macro Recall,0.4563,0.4921,7.85%
+Macro F1,0.3134,0.4932,57.37%
+Hamming Loss,0.1349,0.0106,92.14%
+Exact Match Rate,0.2963,0.8519,187.51%

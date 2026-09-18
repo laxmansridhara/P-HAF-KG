@@ -1,0 +1,62 @@
+{
+  "dataset": "14,814-product validation development set",
+  "validation_products": 14814,
+  "non_empty_ingredient_text": 14813,
+  "v21_relationships": 215,
+  "v22_relationships": 225,
+  "v21": {
+    "micro_precision": 1.0,
+    "micro_recall": 1.0,
+    "micro_f1": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "hamming_loss": 0.0,
+    "exact_match": 1.0
+  },
+  "v22": {
+    "micro_precision": 0.9728319854357035,
+    "micro_recall": 1.0,
+    "micro_f1": 0.98622892635315,
+    "macro_precision": 0.9525020658830186,
+    "macro_recall": 1.0,
+    "macro_f1": 0.9739071148691417,
+    "hamming_loss": 0.004029452389112171,
+    "exact_match": 0.9554475496152288
+  },
+  "delta_v22_minus_v21": {
+    "micro_f1": -0.01377107364685004,
+    "macro_f1": -0.02609288513085828,
+    "exact_match": -0.04455245038477118,
+    "hamming_loss": 0.004029452389112171
+  },
+  "product_level_change": {
+    "improved": 0,
+    "worsened": 660,
+    "unchanged": 14154
+  },
+  "prediction_change": {
+    "new_v22_confirmed_allergen_instances": 776,
+    "removed_v22_confirmed_allergen_instances": 0,
+    "new_v22_confirmed_instances_matching_gold": 0,
+    "new_v22_confirmed_false_positive_instances": 776
+  },
+  "v22_change_set": [
+    "soya -> soy",
+    "bl\u00e9 -> wheat_gluten",
+    "c\u00e9leri -> celery",
+    "s\u00e9same -> sesame",
+    "poisson -> fish",
+    "poissons -> fish",
+    "mollusque -> molluscs",
+    "mollusques -> molluscs",
+    "crustac\u00e9 -> crustaceans",
+    "crustac\u00e9s -> crustaceans",
+    "amandes -> tree_nut",
+    "noisettes -> tree_nut",
+    "haseln\u00fcsse -> tree_nut",
+    "erdn\u00fcsse -> peanut"
+  ],
+  "evaluation_purpose": "Development comparison only. The independent 500-product gold evaluation remains frozen and was not used to tune V2.2.",
+  "elapsed_seconds": 108.14053416252136
+}

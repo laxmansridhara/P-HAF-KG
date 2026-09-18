@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["tesseract", "tesseractLanguages"]
+
+[phases.install]
+cmds = [
+  "pip install --upgrade pip",
+  "pip install -r P_HAF_KG_V2_1_API_wrapper/requirements-api.txt"
+]
+
+[start]
+cmd = "uvicorn P_HAF_KG_V2_1_API_wrapper.api_server:app --host 0.0.0.0 --port $PORT"

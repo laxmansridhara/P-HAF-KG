@@ -1,0 +1,15 @@
+{
+  "model": "TF-IDF + One-vs-Rest Linear SVM",
+  "train_samples": 118515,
+  "validation_samples": 14814,
+  "tfidf_features": 100000,
+  "micro_precision": 0.9844462420944257,
+  "micro_recall": 0.9635081153057184,
+  "micro_f1": 0.9738646490733499,
+  "macro_precision": 0.9821023206251002,
+  "macro_recall": 0.9443136562312792,
+  "macro_f1": 0.9624909377558155,
+  "hamming_loss": 0.007461756550456429,
+  "exact_match": 0.9298636425003375,
+  "training_time_seconds": 53.24942421913147
+}

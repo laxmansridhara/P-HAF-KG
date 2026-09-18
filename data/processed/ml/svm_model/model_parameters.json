@@ -1,0 +1,29 @@
+{
+  "model": "OneVsRest LinearSVC",
+  "C": 1.0,
+  "max_iter": 5000,
+  "tfidf_ngram_range": [
+    1,
+    2
+  ],
+  "tfidf_min_df": 2,
+  "tfidf_max_df": 0.98,
+  "tfidf_sublinear_tf": true,
+  "tfidf_max_features": 100000,
+  "labels": [
+    "celery",
+    "crustaceans",
+    "egg",
+    "fish",
+    "lupin",
+    "milk",
+    "molluscs",
+    "mustard",
+    "peanut",
+    "sesame",
+    "soy",
+    "tree_nut",
+    "wheat_gluten"
+  ],
+  "target": "confirmed_allergens only"
+}

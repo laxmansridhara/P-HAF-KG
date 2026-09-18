@@ -1,0 +1,20 @@
+{
+  "test_run": {
+    "predictor_test": {
+      "status": "PASSED",
+      "checks_passed": 3,
+      "checks_expected": 3,
+      "passed": true,
+      "return_code": 0,
+      "pass_messages": [
+        "PASS: KG and SVM agreement",
+        "PASS: Precautionary evidence",
+        "PASS: SVM-only review candidate"
+      ]
+    },
+    "ocr_test": {
+      "status": "NOT_RUN",
+      "reason": "OCR test requires an image path and was therefore not included in this run."
+    }
+  }
+}

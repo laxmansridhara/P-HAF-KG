@@ -1,0 +1,10 @@
+metric,value
+macro_precision,0.2571
+macro_recall,0.4563
+macro_f1,0.3134
+micro_precision,0.5053
+micro_recall,0.9231
+micro_f1,0.6531
+hamming_loss,0.1349
+exact_matches,8
+exact_match_rate,0.2963

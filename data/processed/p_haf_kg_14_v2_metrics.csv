@@ -1,0 +1,9 @@
+metric,value
+macro_precision,0.36122448979591837
+macro_recall,0.4935064935064935
+macro_f1,0.4054089176596532
+micro_f1,0.8429752066115702
+hamming_loss,0.05026455026455026
+total_tp,51
+total_fp,18
+total_fn,1

@@ -1,0 +1,2 @@
+model,train_products,test_products,tfidf_features,micro_f1,macro_f1,hamming_loss,exact_match_rate,micro_precision,micro_recall
+TF-IDF + Random Forest,107,27,6307,0.6813186813186813,0.4717356173238526,0.13425925925925927,0.3333333333333333,0.7948717948717948,0.5961538461538461

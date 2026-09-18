@@ -1,0 +1,5 @@
+Metric,Keyword Baseline,P-HAF-KG V2.1,Improvement (%)
+Micro F1,0.6531,0.9623,47.34
+Macro F1,0.3134,0.4932,57.37
+Hamming Loss,0.1349,0.0106,92.14
+Exact Match Rate,0.2963,0.8519,187.51

@@ -1,0 +1,3 @@
+model,test_products,exact_matches,exact_match_rate,prediction_file
+Keyword baseline,27,8,0.2962962962962963,data/processed/baseline_keyword_predictions.csv
+TF-IDF baseline,27,7,0.25925925925925924,data/processed/baseline_tfidf_predictions.csv

@@ -1,0 +1,236 @@
+ingredient,allergen,evidence_type,confidence,language
+celeri rave,celery,direct,1.0,fr
+celery root,celery,direct,1.0,en
+celeriac,celery,direct,1.0,en
+sellerie,celery,direct,1.0,de
+celeri,celery,direct,1.0,fr
+celery,celery,direct,1.0,en
+crustaceans,crustaceans,direct,1.0,en
+langoustine,crustaceans,direct,1.0,en
+crevettes,crustaceans,direct,1.0,fr
+crevette,crustaceans,direct,1.0,fr
+garnelen,crustaceans,direct,1.0,de
+lobster,crustaceans,direct,1.0,en
+homard,crustaceans,direct,1.0,fr
+hummer,crustaceans,direct,1.0,de
+krabbe,crustaceans,direct,1.0,de
+prawns,crustaceans,direct,1.0,en
+shrimp,crustaceans,direct,1.0,en
+crabe,crustaceans,direct,1.0,fr
+prawn,crustaceans,direct,1.0,en
+crab,crustaceans,direct,1.0,en
+jaune d oeuf,egg,direct,1.0,fr
+egg albumin,egg,direct,1.0,en
+egg white,egg,direct,1.0,en
+eiprotein,egg,direct,1.0,de
+egg yolk,egg,direct,1.0,en
+albumin,egg,direct,1.0,en
+eiweiss,egg,direct,1.0,de
+eigelb,egg,direct,1.0,de
+oeufs,egg,direct,1.0,fr
+eggs,egg,direct,1.0,en
+eier,egg,direct,1.0,de
+oeuf,egg,direct,1.0,fr
+egg,egg,direct,1.0,en
+ei,egg,direct,1.0,de
+fish protein,fish,direct,1.0,en
+thunfisch,fish,direct,1.0,de
+kabeljau,fish,direct,1.0,de
+haddock,fish,direct,1.0,en
+salmon,fish,direct,1.0,en
+saumon,fish,direct,1.0,fr
+lachs,fish,direct,1.0,de
+morue,fish,direct,1.0,fr
+trout,fish,direct,1.0,en
+fish,fish,direct,1.0,en
+thon,fish,direct,1.0,fr
+tuna,fish,direct,1.0,en
+cod,fish,direct,1.0,en
+farine de lupin,lupin,direct,1.0,fr
+lupin flour,lupin,direct,1.0,en
+lupinen,lupin,direct,1.0,de
+lupine,lupin,direct,1.0,fr
+lupin,lupin,direct,1.0,en
+proteines de lactoserum,milk,direct,1.0,fr
+caseinate de calcium,milk,direct,1.0,fr
+proteines de lait,milk,direct,1.0,fr
+poudre de lait,milk,direct,1.0,fr
+milchproteine,milk,direct,1.0,de
+milk proteins,milk,direct,1.0,en
+molkenprotein,milk,direct,1.0,de
+milchprotein,milk,direct,1.0,de
+milk protein,milk,direct,1.0,en
+skimmed milk,milk,direct,1.0,en
+whey protein,milk,direct,1.0,en
+lait ecreme,milk,direct,1.0,fr
+lait entier,milk,direct,1.0,fr
+milchpulver,milk,direct,1.0,de
+milk powder,milk,direct,1.0,en
+lactoserum,milk,direct,1.0,fr
+whole milk,milk,direct,1.0,en
+caseinate,milk,direct,1.0,en
+skim milk,milk,direct,1.0,en
+fromages,milk,direct,1.0,fr
+fromage,milk,direct,1.0,fr
+lactose,milk,direct,1.0,en
+beurre,milk,direct,1.0,fr
+butter,milk,direct,1.0,en
+casein,milk,direct,1.0,en
+cream,milk,direct,1.0,en
+creme,milk,direct,1.0,fr
+milch,milk,direct,1.0,de
+molke,milk,direct,1.0,de
+sahne,milk,direct,1.0,de
+lait,milk,direct,1.0,fr
+milk,milk,direct,1.0,en
+whey,milk,direct,1.0,en
+molluscs,molluscs,direct,1.0,en
+muscheln,molluscs,direct,1.0,de
+muschel,molluscs,direct,1.0,de
+mussels,molluscs,direct,1.0,en
+octopus,molluscs,direct,1.0,en
+oysters,molluscs,direct,1.0,en
+calmar,molluscs,direct,1.0,fr
+huitre,molluscs,direct,1.0,fr
+moules,molluscs,direct,1.0,fr
+mussel,molluscs,direct,1.0,en
+oyster,molluscs,direct,1.0,en
+moule,molluscs,direct,1.0,fr
+squid,molluscs,direct,1.0,en
+graines de moutarde,mustard,direct,1.0,fr
+mustard seeds,mustard,direct,1.0,en
+mustard seed,mustard,direct,1.0,en
+senfsamen,mustard,direct,1.0,de
+moutarde,mustard,direct,1.0,fr
+mustard,mustard,direct,1.0,en
+senf,mustard,direct,1.0,de
+pate d arachide,peanut,direct,1.0,fr
+erdnussbutter,peanut,direct,1.0,de
+peanut butter,peanut,direct,1.0,en
+peanut flour,peanut,direct,1.0,en
+peanut paste,peanut,direct,1.0,en
+cacahuetes,peanut,direct,1.0,fr
+peanut oil,peanut,direct,1.0,en
+arachides,peanut,direct,1.0,fr
+cacahuete,peanut,direct,1.0,fr
+erdnussol,peanut,direct,1.0,de
+arachide,peanut,direct,1.0,fr
+erdnusse,peanut,direct,1.0,de
+arachis,peanut,direct,1.0,en
+erdnuss,peanut,direct,1.0,de
+peanuts,peanut,direct,1.0,en
+peanut,peanut,direct,1.0,en
+graines de sesame,sesame,direct,1.0,fr
+huile de sesame,sesame,direct,1.0,fr
+sesame seeds,sesame,direct,1.0,en
+sesame seed,sesame,direct,1.0,en
+sesame oil,sesame,direct,1.0,en
+sesamsamen,sesame,direct,1.0,de
+sesamol,sesame,direct,1.0,de
+sesame,sesame,direct,1.0,en
+tahini,sesame,direct,1.0,en
+sesam,sesame,direct,1.0,de
+lecithine de soja,soy,direct,1.0,fr
+farine de soja,soy,direct,1.0,fr
+sojalecithin,soy,direct,1.0,de
+soy lecithin,soy,direct,1.0,en
+sojaprotein,soy,direct,1.0,de
+soy protein,soy,direct,1.0,en
+soja sauce,soy,direct,1.0,fr
+sojabohnen,soy,direct,1.0,de
+sojabohne,soy,direct,1.0,de
+soy flour,soy,direct,1.0,en
+soybeans,soy,direct,1.0,en
+soybean,soy,direct,1.0,en
+soja,soy,direct,1.0,fr
+soy,soy,direct,1.0,en
+schwefeldioxid,sulphites,special_threshold,1.0,de
+sulphites,sulphites,special_threshold,1.0,en
+sulfites,sulphites,special_threshold,1.0,en
+sulphite,sulphites,special_threshold,1.0,en
+sulfite,sulphites,special_threshold,1.0,en
+sulfit,sulphites,special_threshold,1.0,de
+fruits a coque,tree_nut,direct,1.0,fr
+haselnusse,tree_nut,direct,1.0,de
+pistachios,tree_nut,direct,1.0,en
+haselnuss,tree_nut,direct,1.0,de
+hazelnuts,tree_nut,direct,1.0,en
+macadamia,tree_nut,direct,1.0,en
+pistaches,tree_nut,direct,1.0,fr
+pistachio,tree_nut,direct,1.0,en
+pistazien,tree_nut,direct,1.0,de
+tree nuts,tree_nut,direct,1.0,en
+hazelnut,tree_nut,direct,1.0,en
+noisette,tree_nut,direct,1.0,fr
+pistache,tree_nut,direct,1.0,fr
+pistazie,tree_nut,direct,1.0,de
+walnusse,tree_nut,direct,1.0,de
+almonds,tree_nut,direct,1.0,en
+cashews,tree_nut,direct,1.0,en
+mandeln,tree_nut,direct,1.0,de
+walnuss,tree_nut,direct,1.0,de
+walnuts,tree_nut,direct,1.0,en
+almond,tree_nut,direct,1.0,en
+amande,tree_nut,direct,1.0,fr
+cashew,tree_nut,direct,1.0,en
+mandel,tree_nut,direct,1.0,de
+walnut,tree_nut,direct,1.0,en
+pecan,tree_nut,direct,1.0,en
+noix,tree_nut,direct,1.0,fr
+farine de ble complet,wheat_gluten,direct,1.0,fr
+farine de ble tendre,wheat_gluten,direct,1.0,fr
+barley malt extract,wheat_gluten,direct,1.0,en
+gerstenmalzextrakt,wheat_gluten,direct,1.0,de
+semoule de ble dur,wheat_gluten,direct,1.0,fr
+weizenvollkornmehl,wheat_gluten,direct,1.0,de
+whole wheat flour,wheat_gluten,direct,1.0,en
+semoule de ble,wheat_gluten,direct,1.0,fr
+farine de ble,wheat_gluten,direct,1.0,fr
+weizenmehltyp,wheat_gluten,direct,1.0,de
+weizenprotein,wheat_gluten,direct,1.0,de
+wheat protein,wheat_gluten,direct,1.0,en
+barley flour,wheat_gluten,direct,1.0,en
+weizenstarke,wheat_gluten,direct,1.0,de
+wheat starch,wheat_gluten,direct,1.0,en
+barley malt,wheat_gluten,direct,1.0,en
+durum wheat,wheat_gluten,direct,1.0,en
+gerstenmalz,wheat_gluten,direct,1.0,de
+malt d orge,wheat_gluten,direct,1.0,fr
+weizengries,wheat_gluten,direct,1.0,de
+wheat flour,wheat_gluten,direct,1.0,en
+whole wheat,wheat_gluten,direct,1.0,en
+roggenmehl,wheat_gluten,direct,1.0,de
+weizenmehl,wheat_gluten,direct,1.0,de
+hafermehl,wheat_gluten,direct,1.0,de
+oat flour,wheat_gluten,direct,1.0,en
+rye flour,wheat_gluten,direct,1.0,en
+semolina,wheat_gluten,direct,1.0,en
+avoine,wheat_gluten,direct,1.0,fr
+barley,wheat_gluten,direct,1.0,en
+gerste,wheat_gluten,direct,1.0,de
+gluten,wheat_gluten,direct,1.0,en
+roggen,wheat_gluten,direct,1.0,de
+seigle,wheat_gluten,direct,1.0,fr
+weizen,wheat_gluten,direct,1.0,de
+hafer,wheat_gluten,direct,1.0,de
+wheat,wheat_gluten,direct,1.0,en
+malz,wheat_gluten,direct,1.0,de
+oats,wheat_gluten,direct,1.0,en
+orge,wheat_gluten,direct,1.0,fr
+ble,wheat_gluten,direct,1.0,fr
+oat,wheat_gluten,direct,1.0,en
+rye,wheat_gluten,direct,1.0,en
+soya,soy,direct,1.0,fr
+blé,wheat_gluten,direct,1.0,fr
+céleri,celery,direct,1.0,fr
+sésame,sesame,direct,1.0,fr
+poisson,fish,direct,1.0,fr
+poissons,fish,direct,1.0,fr
+mollusque,molluscs,direct,1.0,fr
+mollusques,molluscs,direct,1.0,fr
+crustacé,crustaceans,direct,1.0,fr
+crustacés,crustaceans,direct,1.0,fr
+amandes,tree_nut,direct,1.0,fr
+noisettes,tree_nut,direct,1.0,fr
+haselnüsse,tree_nut,direct,1.0,de
+erdnüsse,peanut,direct,1.0,de

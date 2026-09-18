@@ -1,0 +1,16 @@
+{
+  "model": "TF-IDF + One-vs-Rest Logistic Regression",
+  "task": "13-label confirmed allergen multilabel classification",
+  "train_samples": 118515,
+  "validation_samples": 14814,
+  "tfidf_features": 100000,
+  "micro_precision": 0.9797906200866664,
+  "micro_recall": 0.9194947277503869,
+  "micro_f1": 0.9486855784939848,
+  "macro_precision": 0.9802962448253433,
+  "macro_recall": 0.8598640589500928,
+  "macro_f1": 0.9111532112240978,
+  "hamming_loss": 0.014352327839569638,
+  "exact_match": 0.8637100040502228,
+  "training_time_seconds": 47.685117959976196
+}

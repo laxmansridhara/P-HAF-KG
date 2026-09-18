@@ -1,0 +1,97 @@
+{
+    "model": "P-HAF-KG",
+    "model_version": "2.1",
+    "pipeline": [
+        "image",
+        "tesseract_ocr",
+        "knowledge_base",
+        "allergen_detection",
+        "user_profile",
+        "decision_engine",
+        "explanation_engine"
+    ],
+    "image": "/Users/sridharalaxman/Desktop/Dissertation_Project_Starter/data/raw/food_label.jpg",
+    "ocr": {
+        "engine": "Tesseract",
+        "languages": "eng+fra+deu",
+        "text": "TER \"NOT FOR SALE TO MINORS. | ¢ Nutrition Facts | INGREDIENTS\nLe. ze ES A {serving por pack una MILK CHOCOLATE (SUGAR.\nma CALIFORNIA PROPOSITION 65 Serving size 1 pack (32.39) CHOCOI ATE, SKIM MIL K. COCOA\nWarning: This product contains nicotine, a chemical known to the Amount per serving = TIER, PAC DOSE: RALREATS SON\ntate of California to cause birth defects or other reproductive h Calori 150 ont LE\nstate of California to couse birth defects or other reproductive horm. Calories _ 190 SUGAR\nIngredients: Distilled Water, Nicotine, FCC Grade Vegetable Glycerin, sc EE ri Le Loir PA x a\nNatural Flavors, Arif Flavors, Gri Aid Nicotine content 6 -8 mg per Saturatod Fat 9g 15% | IRON, THIAMINE MONONITRATE.\ncartridge. Trans Fat0g | RIBOFLAVIN. FOLIC ACID)\nCholesterol Omg _©%| MODIFIED SAGO STARCH. SALT.\nblu-eCigs®-electronic cigarettes are not a smoking cessation product and Sodium 105mg 5%| SOYBEAN OIL. CORN SYRUP.\nhave-not been evoluated bythe Food ond Drug Administration, nor ore Total Carbohydrate 249 9%| BARLEY MALT EXTRACT\nthey intended to reat, prevent or-cure any disease or condition. For —Dictary Fiber <1g 0%): LEAVENING (BAKING SODA. YEAST\ntheir protection; please keep out-of reach of children-and pets Total Sugars 79 ________| AND/OR AMMONIUM\n——_Includes 169 Added Sugars 32% | BICARBONATE)]. LESS THAN 2% -\n_ _——————— CORNSTARCH. CORN SYRUP.\nMade in China. Vitamin D De | DEXTRIN. SALT. COLORING\nFlavors mode in USA. Calum 2% | (INCLUDES BLUE 1 LAKE, RED 40.\n©2012 L0E, Inc. 8\"\"58099\"00300\" 2 iron 4% | YELLOW 6, YELLOW 5. BLUE 1, RED\n= Potassium 0% | 40LAKE. YELLOW 6 LAKE, YELLOW\nblu™ ond blu eCigs® are trademarks of Lorillard Technologies, Inc. \"Tre Denver ee youror muet | 5 LAKE. BLUE 2 LAKE. BLUE 2).\nCates a Le ces open nes sce | CARNAUBA WAX, GUM ACACIA"
+    },
+    "knowledge_base": {
+        "path": "/Users/sridharalaxman/Desktop/Dissertation_Project_Starter/data/processed/ingredient_allergen_knowledge_14.csv",
+        "relationship_count": null
+    },
+    "confirmed_allergens": {
+        "milk": [
+            "milk -> Milk"
+        ],
+        "soy": [
+            "soybean -> Soy"
+        ],
+        "wheat_gluten": [
+            "barley -> Wheat/Gluten",
+            "barley malt -> Wheat/Gluten",
+            "barley malt extract -> Wheat/Gluten"
+        ]
+    },
+    "potential_allergens": {},
+    "direct_evidence": [
+        {
+            "ingredient": "milk",
+            "allergen": "milk",
+            "allergen_name": "Milk",
+            "evidence_type": "direct",
+            "evidence": "milk -> Milk"
+        },
+        {
+            "ingredient": "soybean",
+            "allergen": "soy",
+            "allergen_name": "Soy",
+            "evidence_type": "direct",
+            "evidence": "soybean -> Soy"
+        },
+        {
+            "ingredient": "barley malt extract",
+            "allergen": "wheat_gluten",
+            "allergen_name": "Wheat/Gluten",
+            "evidence_type": "direct",
+            "evidence": "barley malt extract -> Wheat/Gluten"
+        },
+        {
+            "ingredient": "barley malt",
+            "allergen": "wheat_gluten",
+            "allergen_name": "Wheat/Gluten",
+            "evidence_type": "direct",
+            "evidence": "barley malt -> Wheat/Gluten"
+        },
+        {
+            "ingredient": "barley",
+            "allergen": "wheat_gluten",
+            "allergen_name": "Wheat/Gluten",
+            "evidence_type": "direct",
+            "evidence": "barley -> Wheat/Gluten"
+        }
+    ],
+    "precautionary_evidence": [],
+    "user_profile": {
+        "profile_version": "1.0",
+        "allergies": [
+            "peanut",
+            "milk",
+            "egg"
+        ],
+        "allergy_names": [
+            "Peanuts",
+            "Milk",
+            "Egg"
+        ]
+    },
+    "decision": "NOT SUITABLE",
+    "risk": "CONFIRMED",
+    "matched_user_allergens": [
+        "milk"
+    ],
+    "matched_user_allergen_names": [
+        "Milk"
+    ],
+    "explanation": "The product is not suitable because the P-HAF-KG model detected confirmed allergen(s) matching the user's allergy profile: Milk. Direct ingredient evidence: milk -> Milk."
+}

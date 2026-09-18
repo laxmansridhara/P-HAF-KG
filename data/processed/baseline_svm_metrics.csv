@@ -1,0 +1,2 @@
+model,train_products,test_products,tfidf_features,micro_f1,macro_f1,hamming_loss,exact_match_rate,micro_precision,micro_recall
+TF-IDF + Linear SVM,107,27,6307,0.6972477064220184,0.5843243442381374,0.1527777777777778,0.2962962962962963,0.6666666666666666,0.7307692307692307

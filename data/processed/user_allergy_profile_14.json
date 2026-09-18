@@ -1,0 +1,14 @@
+{
+    "profile_version": "1.0",
+    "allergy_count": 3,
+    "allergies": [
+        "peanut",
+        "milk",
+        "egg"
+    ],
+    "allergy_names": [
+        "Peanuts",
+        "Milk",
+        "Egg"
+    ]
+}

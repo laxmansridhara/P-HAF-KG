@@ -1,0 +1,38 @@
+{
+  "vectorizer": {
+    "lowercase": true,
+    "strip_accents": "unicode",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.98,
+    "sublinear_tf": true,
+    "max_features": 100000
+  },
+  "classifier": {
+    "model": "OneVsRest Logistic Regression",
+    "C": 2.0,
+    "max_iter": 1000,
+    "solver": "liblinear",
+    "n_jobs": 1
+  },
+  "labels": [
+    "celery",
+    "crustaceans",
+    "egg",
+    "fish",
+    "lupin",
+    "milk",
+    "molluscs",
+    "mustard",
+    "peanut",
+    "sesame",
+    "soy",
+    "tree_nut",
+    "wheat_gluten"
+  ],
+  "target_definition": "confirmed_allergens only",
+  "potential_allergens_usage": "excluded from primary ML target"
+}
